@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28F4AE52-D628-46A7-AE64-15D62991545A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wms.Application</RootNamespace>
+    <AssemblyName>Wms.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Framework.Core">
+      <HintPath>..\..\..\Library\Framework\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.UI.Template, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\Framework\Framework.UI.Template.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\CompositeUI\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\CompositeUI\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\CompositeUI\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+    <Reference Include="WCPierce.Practices.CompositeUI.WinForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\CompositeUI\WCPierce.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Application.config.Designer.cs">
+      <DependentUpon>Application.config.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Configuration\ApplicationConfig.cs" />
+    <Compile Include="Modules\Function\FunctionCabModuleInit.cs" />
+    <Compile Include="Modules\Function\FunctionController.cs" />
+    <Compile Include="Modules\Function\FunctionWorkItem.cs" />
+    <Compile Include="Modules\DataDictionary\DataDictionaryCabModuleInit.cs" />
+    <Compile Include="Modules\DataDictionary\DataDictionaryController.cs" />
+    <Compile Include="Modules\DataDictionary\DataDictionaryWorkItem.cs" />
+    <Compile Include="Modules\DataDictionary\Views\DataDictionaryForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\DataDictionary\Views\DataDictionaryForm.Designer.cs">
+      <DependentUpon>DataDictionaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Function\Views\FunctionForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Function\Views\FunctionForm.Designer.cs">
+      <DependentUpon>FunctionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Group\Views\GroupForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Group\Views\GroupForm.Designer.cs">
+      <DependentUpon>GroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Parameter\ParameterCabModuleInit.cs" />
+    <Compile Include="Modules\Parameter\ParameterController.cs" />
+    <Compile Include="Modules\Parameter\ParameterWorkItem.cs" />
+    <Compile Include="Modules\Parameter\Views\ParameterEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Parameter\Views\ParameterEditForm.Designer.cs">
+      <DependentUpon>ParameterEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Parameter\Views\ParameterListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Parameter\Views\ParameterListForm.Designer.cs">
+      <DependentUpon>ParameterListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Role\RoleCabModuleInit.cs" />
+    <Compile Include="Modules\Role\RoleController.cs" />
+    <Compile Include="Modules\Role\RoleWorkItem.cs" />
+    <Compile Include="Modules\Role\Views\RoleForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Role\Views\RoleForm.Designer.cs">
+      <DependentUpon>RoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SideBar\SideBarCabModuleInit.cs" />
+    <Compile Include="Modules\SideBar\SideBarController.cs" />
+    <Compile Include="Modules\SideBar\SideBarWorkItem.cs" />
+    <Compile Include="Modules\Group\GroupCabModuleInit.cs" />
+    <Compile Include="Modules\Group\GroupController.cs" />
+    <Compile Include="Modules\Group\GroupWorkItem.cs" />
+    <Compile Include="Modules\User\UserCabModuleInit.cs" />
+    <Compile Include="Modules\User\UserController.cs" />
+    <Compile Include="Modules\User\UserWorkItem.cs" />
+    <Compile Include="Modules\User\Views\UserEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\User\Views\UserEditForm.Designer.cs">
+      <DependentUpon>UserEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\User\Views\UserListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\User\Views\UserListForm.Designer.cs">
+      <DependentUpon>UserListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Business\Business.Common\Business.Common.csproj">
+      <Project>{9c1a45e0-6fc9-4733-89a4-ed7d169d83b8}</Project>
+      <Name>Business.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Business\Business.Domain\Business.Domain.csproj">
+      <Project>{8a3bb2e6-237c-4cc0-945b-d849c0039db2}</Project>
+      <Name>Business.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Business\Business.Service.Contract\Business.Service.Contract.csproj">
+      <Project>{7b9c459a-00e3-4aea-ad14-7876618a49af}</Project>
+      <Name>Business.Service.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Wms.Common\Wms.Common.csproj">
+      <Project>{3A9F2BFE-B770-4810-8337-DF360DCBBED1}</Project>
+      <Name>Wms.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configuration\Application.config.zh-CHS.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\Application.config.xsc">
+      <DependentUpon>Application.config.xsd</DependentUpon>
+    </None>
+    <None Include="Configuration\Application.config.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Application.config.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Configuration\Application.config.xss">
+      <DependentUpon>Application.config.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modules\DataDictionary\Views\DataDictionaryForm.resx">
+      <DependentUpon>DataDictionaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Function\Views\FunctionForm.resx">
+      <DependentUpon>FunctionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Group\Views\GroupForm.resx">
+      <DependentUpon>GroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Parameter\Views\ParameterEditForm.resx">
+      <DependentUpon>ParameterEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Parameter\Views\ParameterListForm.resx">
+      <DependentUpon>ParameterListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Role\Views\RoleForm.resx">
+      <DependentUpon>RoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\User\Views\UserEditForm.resx">
+      <DependentUpon>UserEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\User\Views\UserListForm.resx">
+      <DependentUpon>UserListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\SideBar\Views\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

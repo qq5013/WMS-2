@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SolutionProfile xmlns="http://schemas.microsoft.com/pag/cab-profile" >
+  <Modules>
+    <ModuleInfo AssemblyFile="Wms.Application.dll" />
+    <ModuleInfo AssemblyFile="Wms.BasicData.dll" />
+    <ModuleInfo AssemblyFile="Wms.Warehouse.dll" />
+    <ModuleInfo AssemblyFile="Wms.Inbound.dll" />
+    <ModuleInfo AssemblyFile="Wms.Inventory.dll" />
+    <ModuleInfo AssemblyFile="Wms.Outbound.dll" />
+
+    <!--<ModuleInfo AssemblyFile="Mes.Product.dll" />-->
+
+  </Modules>
+</SolutionProfile>

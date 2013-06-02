@@ -1,0 +1,312 @@
+****************************************
+2013-05-28 18:51:40 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:18 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:39 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:39 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:39 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:39 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:39 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:29:39 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:34:28 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:34:28 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:34:28 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:34:28 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:34:28 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:34:28 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:31 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 19:37:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:00:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:00:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:00:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:00:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:00:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:00:37 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+
+****************************************
+2013-05-28 20:04:15 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 707
+****************************************
+

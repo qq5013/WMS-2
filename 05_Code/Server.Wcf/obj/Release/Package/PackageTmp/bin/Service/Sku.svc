@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SkuService" Factory="Spring.ServiceModel.Activation.ServiceHostFactory" %>
+

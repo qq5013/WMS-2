@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gcGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 404</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.Name" xml:space="preserve">
+    <value>gcGrid</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.Parent" xml:space="preserve">
+    <value>pnlClientZone</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="layoutCondition.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblUpc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUpc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="lblUpc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="lblUpc.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblUpc.Text" xml:space="preserve">
+    <value>UPC码：</value>
+  </data>
+  <data name="lblUpc.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUpc.Name" xml:space="preserve">
+    <value>lblUpc</value>
+  </data>
+  <data name="&gt;&gt;lblUpc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUpc.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;lblUpc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtUpc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 59</value>
+  </data>
+  <data name="txtUpc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtUpc.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtUpc.Name" xml:space="preserve">
+    <value>txtUpc</value>
+  </data>
+  <data name="&gt;&gt;txtUpc.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtUpc.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;txtUpc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblBarcode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 56</value>
+  </data>
+  <data name="lblBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="lblBarcode.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblBarcode.Text" xml:space="preserve">
+    <value>库内条码：</value>
+  </data>
+  <data name="lblBarcode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblBarcode.Name" xml:space="preserve">
+    <value>lblBarcode</value>
+  </data>
+  <data name="&gt;&gt;lblBarcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBarcode.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;lblBarcode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 59</value>
+  </data>
+  <data name="txtBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtBarcode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Name" xml:space="preserve">
+    <value>txtBarcode</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;txtBarcode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMerchantId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMerchantId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblMerchantId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="lblMerchantId.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lblMerchantId.Text" xml:space="preserve">
+    <value>货主：</value>
+  </data>
+  <data name="lblMerchantId.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblMerchantId.Name" xml:space="preserve">
+    <value>lblMerchantId</value>
+  </data>
+  <data name="&gt;&gt;lblMerchantId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMerchantId.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;lblMerchantId.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="beMerchantId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 3</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.1" name="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="beMerchantId.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.1">
+    <value>Delete</value>
+  </data>
+  <data name="beMerchantId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="beMerchantId.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;beMerchantId.Name" xml:space="preserve">
+    <value>beMerchantId</value>
+  </data>
+  <data name="&gt;&gt;beMerchantId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beMerchantId.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;beMerchantId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblErpCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblErpCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 0</value>
+  </data>
+  <data name="lblErpCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="lblErpCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblErpCode.Text" xml:space="preserve">
+    <value>货主代码：</value>
+  </data>
+  <data name="lblErpCode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblErpCode.Name" xml:space="preserve">
+    <value>lblErpCode</value>
+  </data>
+  <data name="&gt;&gt;lblErpCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblErpCode.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;lblErpCode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtErpCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 3</value>
+  </data>
+  <data name="txtErpCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtErpCode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtErpCode.Name" xml:space="preserve">
+    <value>txtErpCode</value>
+  </data>
+  <data name="&gt;&gt;txtErpCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtErpCode.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;txtErpCode.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSkuNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="lblSkuNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="lblSkuNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSkuNumber.Text" xml:space="preserve">
+    <value>货物代码：</value>
+  </data>
+  <data name="lblSkuNumber.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSkuNumber.Name" xml:space="preserve">
+    <value>lblSkuNumber</value>
+  </data>
+  <data name="&gt;&gt;lblSkuNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSkuNumber.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;lblSkuNumber.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtSkuNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 31</value>
+  </data>
+  <data name="txtSkuNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtSkuNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSkuNumber.Name" xml:space="preserve">
+    <value>txtSkuNumber</value>
+  </data>
+  <data name="&gt;&gt;txtSkuNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtSkuNumber.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;txtSkuNumber.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblSkuName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSkuName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 28</value>
+  </data>
+  <data name="lblSkuName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="lblSkuName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSkuName.Text" xml:space="preserve">
+    <value>货物名称：</value>
+  </data>
+  <data name="lblSkuName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSkuName.Name" xml:space="preserve">
+    <value>lblSkuName</value>
+  </data>
+  <data name="&gt;&gt;lblSkuName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSkuName.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;lblSkuName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtSkuName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 31</value>
+  </data>
+  <data name="txtSkuName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtSkuName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtSkuName.Name" xml:space="preserve">
+    <value>txtSkuName</value>
+  </data>
+  <data name="&gt;&gt;txtSkuName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtSkuName.Parent" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;txtSkuName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="layoutCondition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="layoutCondition.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="layoutCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 92</value>
+  </data>
+  <data name="layoutCondition.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutCondition.Name" xml:space="preserve">
+    <value>layoutCondition</value>
+  </data>
+  <data name="&gt;&gt;layoutCondition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutCondition.Parent" xml:space="preserve">
+    <value>gcCondition</value>
+  </data>
+  <data name="&gt;&gt;layoutCondition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutCondition.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblUpc" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtUpc" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblBarcode" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="txtBarcode" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblMerchantId" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="beMerchantId" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblErpCode" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="txtErpCode" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblSkuNumber" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSkuNumber" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSkuName" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="txtSkuName" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,13.17523,Percent,20.26959,Percent,13.17523,Percent,20.26959,Percent,13.04348,Percent,20.06689" /&gt;&lt;Rows Styles="Absolute,28,Absolute,28,Absolute,28" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="gcCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 125</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.Name" xml:space="preserve">
+    <value>gcCondition</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlClientZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 196</value>
+  </data>
+  <data name="pnlClientZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 404</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.Name" xml:space="preserve">
+    <value>pnlClientZone</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 125</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.Name" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SkuListForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Framework.UI.Template.Single.SingleListForm, Framework.UI.Template, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C1A45E0-6FC9-4733-89A4-ED7D169D83B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business.Common</RootNamespace>
+    <AssemblyName>Business.Common</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.Core">
+      <HintPath>..\..\Library\Framework\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationInformation.cs" />
+    <Compile Include="DataDictionary\AbcType.cs" />
+    <Compile Include="DataDictionary\AreaType.cs" />
+    <Compile Include="DataDictionary\BillType.cs" />
+    <Compile Include="DataDictionary\CompanyType.cs" />
+    <Compile Include="DataDictionary\InboundTaskStatus.cs" />
+    <Compile Include="DataDictionary\OutboundBillType.cs" />
+    <Compile Include="DataDictionary\InboundBillType.cs" />
+    <Compile Include="DataDictionary\CountBillStatus.cs" />
+    <Compile Include="DataDictionary\CurrencyType.cs" />
+    <Compile Include="DataDictionary\DictionaryEnum.cs" />
+    <Compile Include="DataDictionary\ExceptionReason.cs" />
+    <Compile Include="DataDictionary\InboundBillStatus.cs" />
+    <Compile Include="DataDictionary\InboundPlanStatus.cs" />
+    <Compile Include="DataDictionary\InboundType.cs" />
+    <Compile Include="DataDictionary\InvoiceType.cs" />
+    <Compile Include="DataDictionary\LockLogType.cs" />
+    <Compile Include="DataDictionary\LockMode.cs" />
+    <Compile Include="DataDictionary\LockReason.cs" />
+    <Compile Include="DataDictionary\LockType.cs" />
+    <Compile Include="DataDictionary\OperationType.cs" />
+    <Compile Include="DataDictionary\OutboundBillStatus.cs" />
+    <Compile Include="DataDictionary\OutboundPlanStatus.cs" />
+    <Compile Include="DataDictionary\OutboundType.cs" />
+    <Compile Include="DataDictionary\PayMode.cs" />
+    <Compile Include="DataDictionary\PickBillStatus.cs" />
+    <Compile Include="DataDictionary\PickGroup.cs" />
+    <Compile Include="DataDictionary\PickMode.cs" />
+    <Compile Include="DataDictionary\PickRule.cs" />
+    <Compile Include="DataDictionary\Priority.cs" />
+    <Compile Include="DataDictionary\PurposeType.cs" />
+    <Compile Include="DataDictionary\ReplenishGroup.cs" />
+    <Compile Include="DataDictionary\ShelfType.cs" />
+    <Compile Include="DataDictionary\SortBillStatus.cs" />
+    <Compile Include="DataDictionary\StockLogType.cs" />
+    <Compile Include="DataDictionary\StorageCondition.cs" />
+    <Compile Include="DataDictionary\TimePeriod.cs" />
+    <Compile Include="DataDictionary\TransferBillStatus.cs" />
+    <Compile Include="DataDictionary\TransferType.cs" />
+    <Compile Include="DataDictionary\ValueType.cs" />
+    <Compile Include="Exception\DataAccessException.cs" />
+    <Compile Include="Exception\DataAccessExceptionHelper.cs" />
+    <Compile Include="Exception\ExceptionCode\ApplicationExceptionCodeHelper.cs" />
+    <Compile Include="Exception\BusinessException.cs" />
+    <Compile Include="Exception\BusinessExceptionHelper.cs" />
+    <Compile Include="Exception\ExceptionCode\SystemExceptionCodeHelper.cs" />
+    <Compile Include="Exception\ServiceError.cs" />
+    <Compile Include="Exception\ServiceException.cs" />
+    <Compile Include="Exception\ServiceExceptionHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryModel\CriteriaOperator.cs" />
+    <Compile Include="QueryModel\Criterion.cs" />
+    <Compile Include="QueryModel\OrderClause.cs" />
+    <Compile Include="QueryModel\PagerQuery.cs" />
+    <Compile Include="QueryModel\Query.cs" />
+    <Compile Include="QueryModel\QueryOperator.cs" />
+    <Compile Include="Toolkit\DictionaryHelper.cs" />
+    <Compile Include="Toolkit\TypeConvertHelper.cs" />
+    <Compile Include="Toolkit\RadixConvertHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exception\BusinessException.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

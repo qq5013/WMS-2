@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wms.Mobile", "Wms.Mobile\Wms.Mobile.csproj", "{CDAD928E-7308-4D90-B3D1-73B314972F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Domain.Mobile", "Business.Domain.Mobile\Business.Domain.Mobile.csproj", "{88F6BB2A-E310-4242-B596-2F298E9BF188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDAD928E-7308-4D90-B3D1-73B314972F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAD928E-7308-4D90-B3D1-73B314972F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAD928E-7308-4D90-B3D1-73B314972F7F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CDAD928E-7308-4D90-B3D1-73B314972F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAD928E-7308-4D90-B3D1-73B314972F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAD928E-7308-4D90-B3D1-73B314972F7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{88F6BB2A-E310-4242-B596-2F298E9BF188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F6BB2A-E310-4242-B596-2F298E9BF188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F6BB2A-E310-4242-B596-2F298E9BF188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F6BB2A-E310-4242-B596-2F298E9BF188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

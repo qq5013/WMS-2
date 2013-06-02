@@ -1,0 +1,12 @@
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\MES.BllService.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\MES.BllService.pdb
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\Frame.Utils.Core.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\Frame.Utils.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\Frame.Utils.MetaDB.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\Frame.Utils.SqlServer.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\Frame.Utils.Web.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\MES.Entity.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\bin\Debug\MES.Entity.pdb
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\obj\Debug\MES.BllService.csprojResolveAssemblyReference.cache
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\obj\Debug\MES.BllService.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.BllService\obj\Debug\MES.BllService.pdb

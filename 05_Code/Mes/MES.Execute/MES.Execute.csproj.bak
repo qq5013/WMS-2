@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AEE59715-4FD2-4C31-A0AB-C2E5F9BBEB84}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MES.Execute</RootNamespace>
+    <AssemblyName>MES.Execute</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <ApplicationIcon>mes.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>2CA2D1B206072DE78D80169431C8898A2B4F6262</ManifestCertificateThumbprint>
+    <ManifestKeyFile>MES.Execute_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>d:\mes\Install\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.10.10/Install/</InstallUrl>
+    <UpdateUrl>http://192.168.10.10/Install/</UpdateUrl>
+    <ProductName>上燃生产执行系统</ProductName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>17</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="antlr.runtime, Version=2.7.7.1, Culture=neutral, PublicKeyToken=d7701e059243744f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\antlr.runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy, Version=1.1.5.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Castle.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v10.1.Core, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Frame.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.DevExpress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.DevExpress.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.MetaDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.MetaDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.SqlServer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core, Version=1.3.0.20214, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="StringTemplate, Version=3.0.1.21733, Culture=neutral, PublicKeyToken=beee492b52c41e85, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\StringTemplate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodeLabel.cs" />
+    <Compile Include="Common\DateTimeHelper.cs" />
+    <Compile Include="Common\FileLogger.cs" />
+    <Compile Include="Common\FormExtension.cs" />
+    <Compile Include="Common\MaterielCode.cs" />
+    <Compile Include="Common\ProductCode.cs" />
+    <Compile Include="Common\CommonAPI.cs" />
+    <Compile Include="Common\ControlMode.cs" />
+    <Compile Include="Common\ProductTraceCode.cs" />
+    <Compile Include="Common\ReportHelper.cs" />
+    <Compile Include="Controls\Adjust.cs" />
+    <Compile Include="Controls\CallBack.cs" />
+    <Compile Include="Controls\UcOutboundByProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcOutboundByProduct.Designer.cs">
+      <DependentUpon>UcOutboundByProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProcessItemInspect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProcessItemInspect.Designer.cs">
+      <DependentUpon>UcProcessItemInspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProductInspect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProductInspect.Designer.cs">
+      <DependentUpon>UcProductInspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcMaterielTraceManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcMaterielTraceManage.Designer.cs">
+      <DependentUpon>UcMaterielTraceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MaterielTraceInfo.cs" />
+    <Compile Include="Controls\ProcessStepInfo.cs" />
+    <Compile Include="Controls\ProcessStepInfoDetail.cs" />
+    <Compile Include="Controls\ShowError.cs" />
+    <Compile Include="Controls\ShowNotice.cs" />
+    <Compile Include="Controls\UcBarcodeScan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcBarcodeScan.Designer.cs">
+      <DependentUpon>UcBarcodeScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcPrintProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcPrintProduct.Designer.cs">
+      <DependentUpon>UcPrintProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProcessCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProcessCheck.Designer.cs">
+      <DependentUpon>UcProcessCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcPrintBarcode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcPrintBarcode.Designer.cs">
+      <DependentUpon>UcPrintBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProcessendCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProcessendCheck.Designer.cs">
+      <DependentUpon>UcProcessendCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProductionOrderManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProductionOrderManage.Designer.cs">
+      <DependentUpon>UcProductionOrderManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProductionPlanManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProductionPlanManage.Designer.cs">
+      <DependentUpon>UcProductionPlanManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcPurchaseOrderManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcPurchaseOrderManage.Designer.cs">
+      <DependentUpon>UcPurchaseOrderManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcReprintBarcode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcReprintBarcode.Designer.cs">
+      <DependentUpon>UcReprintBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcSalesOrderManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcSalesOrderManage.Designer.cs">
+      <DependentUpon>UcSalesOrderManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcOutboundManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcOutboundManage.Designer.cs">
+      <DependentUpon>UcOutboundManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcInboundManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcInboundManage.Designer.cs">
+      <DependentUpon>UcInboundManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProductionOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProductionOrder.Designer.cs">
+      <DependentUpon>UcProductionOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcSelectSku.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcSelectSku.Designer.cs">
+      <DependentUpon>UcSelectSku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcSkuList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcSkuList.Designer.cs">
+      <DependentUpon>UcSkuList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcWaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcWaster.Designer.cs">
+      <DependentUpon>UcWaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProductionPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProductionPlan.Designer.cs">
+      <DependentUpon>UcProductionPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcSalesOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcSalesOrder.Designer.cs">
+      <DependentUpon>UcSalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcPurchaseOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcPurchaseOrder.Designer.cs">
+      <DependentUpon>UcPurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcInbound.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcInbound.Designer.cs">
+      <DependentUpon>UcInbound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntityExtend.cs" />
+    <Compile Include="FormChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChangePassword.Designer.cs">
+      <DependentUpon>FormChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICheckClosing.cs" />
+    <Compile Include="IInitControl.cs" />
+    <Compile Include="Infos\SkuInfo.cs" />
+    <Compile Include="InspectLog.cs" />
+    <Compile Include="IOrderControl.cs" />
+    <Compile Include="OpenMode.cs" />
+    <Compile Include="ServiceHelper.cs" />
+    <Compile Include="SetOrderCode.cs" />
+    <Compile Include="SetProduct.cs" />
+    <Compile Include="TableInfo.cs" />
+    <Compile Include="Controls\UcProcessInspect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProcessInspect.Designer.cs">
+      <DependentUpon>UcProcessInspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcOutbound.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcOutbound.Designer.cs">
+      <DependentUpon>UcOutbound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcProcessNormal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcProcessNormal.Designer.cs">
+      <DependentUpon>UcProcessNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogon.Designer.cs">
+      <DependentUpon>FormLogon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\UcOutboundByProduct.resx">
+      <DependentUpon>UcOutboundByProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProcessItemInspect.resx">
+      <DependentUpon>UcProcessItemInspect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProductInspect.resx">
+      <DependentUpon>UcProductInspect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcMaterielTraceManage.resx">
+      <DependentUpon>UcMaterielTraceManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcBarcodeScan.resx">
+      <DependentUpon>UcBarcodeScan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcPrintProduct.resx">
+      <DependentUpon>UcPrintProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProcessCheck.resx">
+      <DependentUpon>UcProcessCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcPrintBarcode.resx">
+      <DependentUpon>UcPrintBarcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProcessendCheck.resx">
+      <DependentUpon>UcProcessendCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProductionOrderManage.resx">
+      <DependentUpon>UcProductionOrderManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProductionPlanManage.resx">
+      <DependentUpon>UcProductionPlanManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcPurchaseOrderManage.resx">
+      <DependentUpon>UcPurchaseOrderManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcReprintBarcode.resx">
+      <DependentUpon>UcReprintBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcSalesOrderManage.resx">
+      <DependentUpon>UcSalesOrderManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcOutboundManage.resx">
+      <DependentUpon>UcOutboundManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcInboundManage.resx">
+      <DependentUpon>UcInboundManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProductionOrder.resx">
+      <DependentUpon>UcProductionOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProductionPlan.resx">
+      <DependentUpon>UcProductionPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcSalesOrder.resx">
+      <DependentUpon>UcSalesOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcPurchaseOrder.resx">
+      <DependentUpon>UcPurchaseOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcInbound.resx">
+      <DependentUpon>UcInbound.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProcessInspect.resx">
+      <DependentUpon>UcProcessInspect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcOutbound.resx">
+      <DependentUpon>UcOutbound.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProcessNormal.resx">
+      <DependentUpon>UcProcessNormal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcSelectSku.resx">
+      <DependentUpon>UcSelectSku.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcSkuList.resx">
+      <DependentUpon>UcSkuList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcWaster.resx">
+      <DependentUpon>UcWaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChangePassword.resx">
+      <DependentUpon>FormChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogon.resx">
+      <DependentUpon>FormLogon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcChangeQuantity.resx">
+      <DependentUpon>UcChangeQuantity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcMenu.resx">
+      <DependentUpon>UcMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcRework.resx">
+      <DependentUpon>UcRework.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Controls\UcChangeQuantity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcChangeQuantity.Designer.cs">
+      <DependentUpon>UcChangeQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcMenu.Designer.cs">
+      <DependentUpon>UcMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UcRework.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcRework.Designer.cs">
+      <DependentUpon>UcRework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VoidMethod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MES.BllContract\MES.BllContract.csproj">
+      <Project>{979E855E-CE4D-41A1-A86E-E73CFB2B83D3}</Project>
+      <Name>MES.BllContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.BllService\MES.BllService.csproj">
+      <Project>{A91331D2-36E0-44AD-897F-9D48D4BD83C0}</Project>
+      <Name>MES.BllService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.DalContract\MES.DalContract.csproj">
+      <Project>{AA5EF3B6-8CC5-41F1-B95D-2D72DDB7C4DF}</Project>
+      <Name>MES.DalContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.DalService\MES.DalService.csproj">
+      <Project>{98D73A73-2B9E-4DE2-B52B-2518182561CC}</Project>
+      <Name>MES.DalService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.Entity\MES.Entity.csproj">
+      <Project>{8FE4C242-3C95-46F9-812F-CC0A59F781ED}</Project>
+      <Name>MES.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.Reports\MES.Reports.csproj">
+      <Project>{C0777DC9-54FE-4C41-B6EB-D966CD35F291}</Project>
+      <Name>MES.Reports</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_help_index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_kcontrol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_kdmconfig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_klipper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_kview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_mail_generic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_ooo_writer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16_reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48x48_misc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FirstPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-contents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\function-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insert1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LastPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailtemplates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portlets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PriorPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAndNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\site-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Labels\Product.btw">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Labels\Material.btw">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="MES.Execute_TemporaryKey.pfx" />
+    <None Include="Resources\MesHead.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mes.ico" />
+    <Content Include="bartend.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BtEnu.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Labels\ProductTrace.btw">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.Charts.v10.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v10.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPivotGrid.v10.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPivotGrid.v10.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraTreeList.v10.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

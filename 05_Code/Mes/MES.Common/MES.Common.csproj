@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99ADE35D-E78B-40F2-AEED-7A97ABB7568C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MES.Common</RootNamespace>
+    <AssemblyName>MES.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Frame.Utils">
+      <HintPath>..\RefLib\Frame.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.Core">
+      <HintPath>..\RefLib\Frame.Utils.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.MetaDB">
+      <HintPath>..\RefLib\Frame.Utils.MetaDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.UI.Template">
+      <HintPath>..\..\Library\Framework\Framework.UI.Template.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodeLabel.cs" />
+    <Compile Include="CallBack.cs" />
+    <Compile Include="CommonAPI.cs" />
+    <Compile Include="CommonAPI.Product.cs" />
+    <Compile Include="ControlMode.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="EntityConfigExtension.cs" />
+    <Compile Include="EntitySetting.cs" />
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="FormExtension.cs" />
+    <Compile Include="ICheckClosing.cs" />
+    <Compile Include="IDetailModel.cs" />
+    <Compile Include="IInitControl.cs" />
+    <Compile Include="IOrderControl.cs" />
+    <Compile Include="OpenMode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SetOrderCode.cs" />
+    <Compile Include="ShowError.cs" />
+    <Compile Include="ShowNotice.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business\Business.Domain\Business.Domain.csproj">
+      <Project>{8A3BB2E6-237C-4CC0-945B-D849C0039DB2}</Project>
+      <Name>Business.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WinApplication\Modules\Wms.BasicData\Wms.BasicData.csproj">
+      <Project>{3A4704F1-1078-46A8-9626-50EEB20E7792}</Project>
+      <Name>Wms.BasicData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.BllService\MES.BllService.csproj">
+      <Project>{A91331D2-36E0-44AD-897F-9D48D4BD83C0}</Project>
+      <Name>MES.BllService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.Entity\MES.Entity.csproj">
+      <Project>{8FE4C242-3C95-46F9-812F-CC0A59F781ED}</Project>
+      <Name>MES.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

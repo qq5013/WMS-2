@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A3BB2E6-237C-4CC0-945B-D849C0039DB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business.Domain</RootNamespace>
+    <AssemblyName>Business.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile3</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\Application.cs" />
+    <Compile Include="Application\DataDictionary.cs" />
+    <Compile Include="Application\Function.cs" />
+    <Compile Include="Application\Group.cs" />
+    <Compile Include="Application\GroupUser.cs" />
+    <Compile Include="Application\Parameter.cs" />
+    <Compile Include="Application\Role.cs" />
+    <Compile Include="Application\RoleFunction.cs" />
+    <Compile Include="Application\RoleGroup.cs" />
+    <Compile Include="Application\RoleUser.cs" />
+    <Compile Include="Application\User.cs" />
+    <Compile Include="Application\UserFunctionView.cs" />
+    <Compile Include="BoolResultObject.cs" />
+    <Compile Include="DomainObject.cs" />
+    <Compile Include="Inventory\BillSn.cs" />
+    <Compile Include="Inventory\CountBill.cs" />
+    <Compile Include="Inventory\CountBillDetail.cs" />
+    <Compile Include="Inventory\Distribution.cs" />
+    <Compile Include="Inventory\InboundBatch.cs" />
+    <Compile Include="Inventory\InboundBill.cs" />
+    <Compile Include="Inventory\InboundBillAggregate.cs" />
+    <Compile Include="Inventory\InboundBillDetail.cs" />
+    <Compile Include="Inventory\InboundBillException.cs" />
+    <Compile Include="Inventory\InboundPlan.cs" />
+    <Compile Include="Inventory\InboundPlanDetail.cs" />
+    <Compile Include="Inventory\InboundTask.cs" />
+    <Compile Include="Inventory\InboundTaskDetail.cs" />
+    <Compile Include="Inventory\Lock.cs" />
+    <Compile Include="Inventory\LockLog.cs" />
+    <Compile Include="Inventory\OperationLog.cs" />
+    <Compile Include="Inventory\OutboundBill.cs" />
+    <Compile Include="Inventory\OutboundBillDetail.cs" />
+    <Compile Include="Inventory\OutboundPlan.cs" />
+    <Compile Include="Inventory\OutboundPlanDetail.cs" />
+    <Compile Include="Inventory\Package.cs" />
+    <Compile Include="Inventory\PackageDetail.cs" />
+    <Compile Include="Inventory\PickBill.cs" />
+    <Compile Include="Inventory\PickBillDetail.cs" />
+    <Compile Include="Inventory\PickWave.cs" />
+    <Compile Include="Inventory\ReceivingPreparation.cs" />
+    <Compile Include="Inventory\SerialNumber.cs" />
+    <Compile Include="Inventory\SortBill.cs" />
+    <Compile Include="Inventory\SortBillDetail.cs" />
+    <Compile Include="Inventory\Stock.cs" />
+    <Compile Include="Inventory\StockLog.cs" />
+    <Compile Include="Inventory\StockSn.cs" />
+    <Compile Include="Inventory\StockSnLog.cs" />
+    <Compile Include="Inventory\TransferBill.cs" />
+    <Compile Include="Inventory\TransferBillDetail.cs" />
+    <Compile Include="Inventory\Views\InboundTaskDetailResult.cs" />
+    <Compile Include="Inventory\Views\InboundTaskDetailView.cs" />
+    <Compile Include="Inventory\Views\CountBillDetailView.cs" />
+    <Compile Include="Inventory\Views\InboundBillDetailView.cs" />
+    <Compile Include="Inventory\Views\InboundPlanDetailView.cs" />
+    <Compile Include="Inventory\Views\OutboundBillDetailView.cs" />
+    <Compile Include="Inventory\Views\OutboundPlanDetailView.cs" />
+    <Compile Include="Inventory\Views\StockLogView.cs" />
+    <Compile Include="Inventory\Views\StockView.cs" />
+    <Compile Include="Inventory\Views\TransferBillDetailView.cs" />
+    <Compile Include="ISupportValidation.cs" />
+    <Compile Include="Mobile\ContainerInfo.cs" />
+    <Compile Include="Mobile\DeliveryTask.cs" />
+    <Compile Include="Mobile\LocationInfo.cs" />
+    <Compile Include="Mobile\PickTask.cs" />
+    <Compile Include="Mobile\PickTaskResult.cs" />
+    <Compile Include="Mobile\PutawayTask.cs" />
+    <Compile Include="Mobile\PutawayTaskResult.cs" />
+    <Compile Include="Mobile\ReceivingTask.cs" />
+    <Compile Include="Mobile\ReceivingTaskResult.cs" />
+    <Compile Include="Mobile\SkuInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\InboundPlanReportEntity.cs" />
+    <Compile Include="Warehouse\Aisle.cs" />
+    <Compile Include="Warehouse\Area.cs" />
+    <Compile Include="Warehouse\AreaGroup.cs" />
+    <Compile Include="Warehouse\Container.cs" />
+    <Compile Include="Warehouse\ContainerType.cs" />
+    <Compile Include="Warehouse\GroupMember.cs" />
+    <Compile Include="Warehouse\Location.cs" />
+    <Compile Include="Warehouse\LocationSafetyStock.cs" />
+    <Compile Include="Warehouse\LocationTag.cs" />
+    <Compile Include="Warehouse\OperatorGroup.cs" />
+    <Compile Include="Inventory\PickingStock.cs" />
+    <Compile Include="Warehouse\PutawayLocation.cs" />
+    <Compile Include="Warehouse\SafetyStock.cs" />
+    <Compile Include="Warehouse\Setting.cs" />
+    <Compile Include="Warehouse\Shelf.cs" />
+    <Compile Include="Warehouse\SkuTag.cs" />
+    <Compile Include="Warehouse\Tag.cs" />
+    <Compile Include="Warehouse\Views\LocationTagView.cs" />
+    <Compile Include="Warehouse\Views\LocationView.cs" />
+    <Compile Include="Warehouse\Views\SkuTagView.cs" />
+    <Compile Include="Wms\BatchProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\CategoryManagement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\CategoryProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\Company.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\CompanyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\District.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\Pack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\Sku.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\SkuImage.cs" />
+    <Compile Include="Wms\SkuManagement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\SkuProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\SkuView.cs" />
+    <Compile Include="Wms\Warehouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wms\WarehouseUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

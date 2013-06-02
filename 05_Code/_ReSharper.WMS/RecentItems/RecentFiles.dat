@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="CE11F68B-9DAD-4A1D-A075-2DC5E44F8861/d:Modules/d:LocationDisplay/d:Views/f:LocationDisplayEditForm.cs" caret="6641" fromTop="18" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Location/d:Views/f:LocationListForm.cs" caret="6243" fromTop="11" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Location/d:Views/f:LocationEditForm.cs" caret="1238" fromTop="18" />
+    <File id="7B9C459A-00E3-4AEA-AD14-7876618A49AF/f:ISkuService.cs" caret="6922" fromTop="19" />
+    <File id="4C9C407F-A8CE-434B-B3A3-AB9D55A97940/f:SkuManager.cs" caret="968" fromTop="21" />
+    <File id="F65D7F9B-6A0C-41D2-BB9E-9E9CAE337C6C/f:SkuService.cs" caret="13822" fromTop="393" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/f:ParameterCabModuleInit.cs" caret="404" fromTop="13" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/f:ParameterController.cs" caret="1072" fromTop="25" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/f:ParameterWorkItem.cs" caret="155" fromTop="9" />
+    <File id="8748D970-D803-43AF-9246-A79EB6CDE32C/d:Repository/f:Repository.cs" caret="3314" fromTop="25" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/d:Views/f:ParameterListForm.cs" caret="2906" fromTop="16" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/d:Views/f:ParameterEditForm.cs" caret="5266" fromTop="23" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:DataDictionary/f:DataDictionaryCabModuleInit.cs" caret="0" fromTop="0" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:DataDictionary/f:DataDictionaryController.cs" caret="1437" fromTop="34" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:DataDictionary/f:DataDictionaryWorkItem.cs" caret="165" fromTop="9" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:DataDictionary/d:Views/f:DataDictionaryForm.cs" caret="4175" fromTop="42" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:InboundPlan/d:Views/f:PrintSkuLabelForm.Designer.cs" caret="0" fromTop="0" />
+    <File id="8A3BB2E6-237C-4CC0-945B-D849C0039DB2/d:Wms/f:SkuManagement.cs" caret="456" fromTop="2" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/d:Views/f:ReceivePreparationForm.cs" caret="15857" fromTop="21" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:InboundPlan/d:Views/f:InboundPlanEditForm.cs" caret="4972" fromTop="25" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:InboundPlan/d:Views/f:PrintSkuLabelForm.cs" caret="1326" fromTop="0" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/d:Views/f:ReceiveForm.Designer.cs" caret="57688" fromTop="21" />
+    <File id="CE11F68B-9DAD-4A1D-A075-2DC5E44F8861/d:Modules/d:CountBill/d:Views/f:CountBillEditForm.cs" caret="2183" fromTop="6" />
+    <File id="F65D7F9B-6A0C-41D2-BB9E-9E9CAE337C6C/f:InboundService.cs" caret="40494" fromTop="30" />
+    <File id="57CD8067-FAAB-4781-9807-F85C23342271/f:ShellApplication.cs" caret="4957" fromTop="22" />
+    <File id="3A4704F1-1078-46A8-9626-50EEB20E7792/d:Modules/d:Sku/d:Views/f:SkuListForm.cs" caret="5043" fromTop="22" />
+    <File id="7B9C459A-00E3-4AEA-AD14-7876618A49AF/f:IInboundService.cs" caret="13409" fromTop="34" />
+    <File id="3A4704F1-1078-46A8-9626-50EEB20E7792/d:Modules/d:Sku/d:Views/f:SkuEditForm.cs" caret="1927" fromTop="25" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/f:ReceiveController.cs" caret="317" fromTop="8" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/d:Views/f:ReceiveForm.cs" caret="26385" fromTop="23" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Area/d:Views/f:AreaListForm.cs" caret="5512" fromTop="19" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Container/d:Views/f:ContainerListForm.cs" caret="6000" fromTop="8" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:ContainerType/d:Views/f:ContainerTypeListForm.cs" caret="4445" fromTop="12" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Setting/d:Views/f:SettingListForm.cs" caret="4135" fromTop="9" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Shelf/d:Views/f:ShelfListForm.cs" caret="6128" fromTop="17" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Tag/d:Views/f:TagListForm.cs" caret="4056" fromTop="8" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:TagLocation/d:Views/f:TagLocationListForm.cs" caret="4243" fromTop="21" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:TagSku/d:Views/f:TagSkuListForm.cs" caret="4168" fromTop="23" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Warehouse/d:Views/f:WarehouseListForm.cs" caret="4979" fromTop="16" />
+    <File id="CE11F68B-9DAD-4A1D-A075-2DC5E44F8861/d:Modules/d:LocationDisplay/d:Views/f:LocationDisplayEditForm.cs" caret="6220" fromTop="21" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Location/d:Views/f:LocationListForm.cs" caret="6243" fromTop="11" />
+    <File id="7619BA05-FA97-428C-B294-20B0C4810EBE/d:Modules/d:Location/d:Views/f:LocationEditForm.cs" caret="9402" fromTop="21" />
+    <File id="7B9C459A-00E3-4AEA-AD14-7876618A49AF/f:ISkuService.cs" caret="6849" fromTop="18" />
+    <File id="4C9C407F-A8CE-434B-B3A3-AB9D55A97940/f:SkuManager.cs" caret="968" fromTop="21" />
+    <File id="F65D7F9B-6A0C-41D2-BB9E-9E9CAE337C6C/f:SkuService.cs" caret="14067" fromTop="12" />
+    <File id="3A4704F1-1078-46A8-9626-50EEB20E7792/d:Modules/d:Sku/d:Views/f:SkuEditForm.cs" caret="1509" fromTop="14" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/f:ParameterController.cs" caret="857" fromTop="23" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/d:Views/f:ParameterListForm.cs" caret="3232" fromTop="25" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:Parameter/d:Views/f:ParameterEditForm.cs" caret="927" fromTop="17" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:DataDictionary/f:DataDictionaryController.cs" caret="1135" fromTop="27" />
+    <File id="28F4AE52-D628-46A7-AE64-15D62991545A/d:Modules/d:DataDictionary/d:Views/f:DataDictionaryForm.cs" caret="6426" fromTop="42" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/d:Views/f:ReceivePreparationForm.cs" caret="15857" fromTop="21" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:InboundPlan/d:Views/f:InboundPlanEditForm.cs" caret="5113" fromTop="27" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:InboundPlan/d:Views/f:PrintSkuLabelForm.cs" caret="6426" fromTop="0" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/d:Views/f:ReceiveForm.Designer.cs" caret="57840" fromTop="21" />
+    <File id="3A4704F1-1078-46A8-9626-50EEB20E7792/d:Modules/d:Sku/d:Views/f:SkuListForm.cs" caret="4929" fromTop="16" />
+    <File id="7B9C459A-00E3-4AEA-AD14-7876618A49AF/f:IInboundService.cs" caret="13409" fromTop="34" />
+    <File id="F65D7F9B-6A0C-41D2-BB9E-9E9CAE337C6C/f:InboundService.cs" caret="40427" fromTop="32" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/f:ReceiveController.cs" caret="279" fromTop="6" />
+    <File id="9CBC1E2D-E0EA-4EAE-B971-83DDB612C021/d:Modules/d:Receive/d:Views/f:ReceiveForm.cs" caret="25634" fromTop="5" />
+  </RecentEdits>
+</RecentFiles>

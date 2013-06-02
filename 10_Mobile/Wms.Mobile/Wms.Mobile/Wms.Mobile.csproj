@@ -1,0 +1,310 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CDAD928E-7308-4D90-B3D1-73B314972F7F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wms.Mobile</RootNamespace>
+    <AssemblyName>Wms.Mobile</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>Wms.Mobile</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.SmartDevice, Version=1.0.4234.24253, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Framework.SmartDevice.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json.Compact, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="Spring.Http.Converters.NJson, Version=1.1.1.35035, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Spring.Http.Converters.NJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Rest, Version=1.1.1.35035, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Spring.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\FormHelper.cs" />
+    <Compile Include="Common\GlobalState.cs" />
+    <Compile Include="Common\ServiceError.cs" />
+    <Compile Include="Common\ServiceErrorHandler.cs" />
+    <Compile Include="Common\ServiceException.cs" />
+    <Compile Include="Common\ToolKit.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Delivery\DeliveryForm.resx">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pick\PickForm_Step1.resx">
+      <DependentUpon>PickForm_Step1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pick\PickForm_Step2.resx">
+      <DependentUpon>PickForm_Step2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pick\PickForm_Step3.resx">
+      <DependentUpon>PickForm_Step3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Putaway\PutawayForm_Step1.resx">
+      <DependentUpon>PutawayForm_Step1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Putaway\PutawayForm_Step2.resx">
+      <DependentUpon>PutawayForm_Step2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Putaway\PutawayForm_Step3.resx">
+      <DependentUpon>PutawayForm_Step3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Receiving\ReceivingForm_Step1.resx">
+      <DependentUpon>ReceivingForm_Step1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Receiving\ReceivingForm_Step2.resx">
+      <DependentUpon>ReceivingForm_Step2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Receiving\ReceivingForm_Step3.resx">
+      <DependentUpon>ReceivingForm_Step3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Receiving\ReceivingForm_Step4.resx">
+      <DependentUpon>ReceivingForm_Step4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\StockQuery\StockQueryForm.resx">
+      <DependentUpon>StockQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TemplateForm.resx">
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transfer\TransferForm_Step1.resx">
+      <DependentUpon>TransferForm_Step1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transfer\TransferForm_Step2.resx">
+      <DependentUpon>TransferForm_Step2.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Delivery\DeliveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Delivery\DeliveryForm.Designer.cs">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pick\PickForm_Step1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pick\PickForm_Step1.Designer.cs">
+      <DependentUpon>PickForm_Step1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pick\PickForm_Step2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pick\PickForm_Step2.Designer.cs">
+      <DependentUpon>PickForm_Step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pick\PickForm_Step3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pick\PickForm_Step3.Designer.cs">
+      <DependentUpon>PickForm_Step3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Putaway\PutawayForm_Step1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Putaway\PutawayForm_Step1.Designer.cs">
+      <DependentUpon>PutawayForm_Step1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Putaway\PutawayForm_Step2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Putaway\PutawayForm_Step2.Designer.cs">
+      <DependentUpon>PutawayForm_Step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Putaway\PutawayForm_Step3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Putaway\PutawayForm_Step3.Designer.cs">
+      <DependentUpon>PutawayForm_Step3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step1.Designer.cs">
+      <DependentUpon>ReceivingForm_Step1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step2.Designer.cs">
+      <DependentUpon>ReceivingForm_Step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step3.Designer.cs">
+      <DependentUpon>ReceivingForm_Step3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Receiving\ReceivingForm_Step4.Designer.cs">
+      <DependentUpon>ReceivingForm_Step4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StockQuery\StockQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StockQuery\StockQueryForm.Designer.cs">
+      <DependentUpon>StockQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TemplateForm.Designer.cs">
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Transfer\TransferForm_Step1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transfer\TransferForm_Step1.Designer.cs">
+      <DependentUpon>TransferForm_Step1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Transfer\TransferForm_Step2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transfer\TransferForm_Step2.Designer.cs">
+      <DependentUpon>TransferForm_Step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SmartDeviceService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\Newtonsoft.Json.Compact.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Domain.Mobile\Business.Domain.Mobile.csproj">
+      <Project>{88F6BB2A-E310-4242-B596-2F298E9BF188}</Project>
+      <Name>Business.Domain.Mobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\Framework.SmartDevice.dll" />
+    <Content Include="Library\N3P.WCF.Proxyless.FullFramework.dll" />
+    <Content Include="Library\Spring.Http.Converters.NJson.dll" />
+    <Content Include="Library\Spring.Rest.dll" />
+    <Content Include="WCFService.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web References\SmartDeviceService\SmartDevice.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/Wms/Service/SmartDevice.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\SmartDeviceService\</RelPath>
+      <UpdateFromURL>http://localhost/Wms/Service/SmartDevice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\SmartDeviceService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SmartDeviceService\SmartDevice.wsdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

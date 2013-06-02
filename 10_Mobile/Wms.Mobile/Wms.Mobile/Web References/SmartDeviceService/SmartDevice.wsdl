@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadReceivingTaskResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="result" type="tns:ReceivingTaskResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ReceivingTaskResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WarehouseCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeliveryMan" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Vehicle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArrivalTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiveTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocationBarcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Details" type="tns:ArrayOfReceivingTaskResultDetail" />
+          <s:element minOccurs="1" maxOccurs="1" name="Operator" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfReceivingTaskResultDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ReceivingTaskResultDetail" nillable="true" type="tns:ReceivingTaskResultDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ReceivingTaskResultDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SkuNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PackName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReceivedQty" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsPieceManagement" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContainerBarcode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadReceivingTaskResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadReceivingTaskResultResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPutawayTaskResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="result" type="tns:PutawayTaskResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PutawayTaskResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WarehouseCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TransferTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Details" type="tns:ArrayOfPutawayTaskResultDetail" />
+          <s:element minOccurs="1" maxOccurs="1" name="Operator" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPutawayTaskResultDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PutawayTaskResultDetail" nillable="true" type="tns:PutawayTaskResultDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PutawayTaskResultDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SourceContainerBarcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TargetContainerBarcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SourceLocationBarcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TargetLocationBarcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SkuNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PackName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransferedQty" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsPieceManagement" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsTransferContainer" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadPutawayTaskResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadPutawayTaskResultResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadPickTaskResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="result" type="tns:PickTaskResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PickTaskResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WarehouseCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlanNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Receiver" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlanIssueTime" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClientId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PlanId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Details" type="tns:ArrayOfPickTaskResultDetail" />
+          <s:element minOccurs="1" maxOccurs="1" name="Operator" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPickTaskResultDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PickTaskResultDetail" nillable="true" type="tns:PickTaskResultDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PickTaskResultDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SkuNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PackName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReceivedQty" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsPieceManagement" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContainerBarcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocationBarcode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LocationId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="StockId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadPickTaskResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadPickTaskResultResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="outboundBill" type="tns:OutboundBill" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OutboundBill">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DomainObject">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="BillId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="BillNumber" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="PlanId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="PickBillId" nillable="true" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="SortBillId" nillable="true" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="ClientId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="MerchantId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="WarehouseId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IssuePerson" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IssueLocationId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="IssueTime" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Auditor" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="AuditTime" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BillStatus" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CreateUser" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreateTime" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="EditUser" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="EditTime" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DomainObject" abstract="true" />
+      <s:element name="UpdateDeliveryTaskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDeliveryTaskResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceivingTaskResultSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadReceivingTaskResult" />
+  </wsdl:message>
+  <wsdl:message name="UploadReceivingTaskResultSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadReceivingTaskResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPutawayTaskResultSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPutawayTaskResult" />
+  </wsdl:message>
+  <wsdl:message name="UploadPutawayTaskResultSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPutawayTaskResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadPickTaskResultSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadPickTaskResult" />
+  </wsdl:message>
+  <wsdl:message name="UploadPickTaskResultSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadPickTaskResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryTask" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn" />
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostIn" />
+  <wsdl:message name="HelloWorldHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="SmartDeviceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceivingTaskResult">
+      <wsdl:input message="tns:UploadReceivingTaskResultSoapIn" />
+      <wsdl:output message="tns:UploadReceivingTaskResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPutawayTaskResult">
+      <wsdl:input message="tns:UploadPutawayTaskResultSoapIn" />
+      <wsdl:output message="tns:UploadPutawayTaskResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPickTaskResult">
+      <wsdl:input message="tns:UploadPickTaskResultSoapIn" />
+      <wsdl:output message="tns:UploadPickTaskResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryTask">
+      <wsdl:input message="tns:UpdateDeliveryTaskSoapIn" />
+      <wsdl:output message="tns:UpdateDeliveryTaskSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SmartDeviceHttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SmartDeviceHttpPost">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpPostIn" />
+      <wsdl:output message="tns:HelloWorldHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SmartDeviceSoap" type="tns:SmartDeviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceivingTaskResult">
+      <soap:operation soapAction="http://tempuri.org/UploadReceivingTaskResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPutawayTaskResult">
+      <soap:operation soapAction="http://tempuri.org/UploadPutawayTaskResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPickTaskResult">
+      <soap:operation soapAction="http://tempuri.org/UploadPickTaskResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryTask">
+      <soap:operation soapAction="http://tempuri.org/UpdateDeliveryTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmartDeviceSoap12" type="tns:SmartDeviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadReceivingTaskResult">
+      <soap12:operation soapAction="http://tempuri.org/UploadReceivingTaskResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPutawayTaskResult">
+      <soap12:operation soapAction="http://tempuri.org/UploadPutawayTaskResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPickTaskResult">
+      <soap12:operation soapAction="http://tempuri.org/UploadPickTaskResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryTask">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDeliveryTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmartDeviceHttpGet" type="tns:SmartDeviceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmartDeviceHttpPost" type="tns:SmartDeviceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SmartDevice">
+    <wsdl:port name="SmartDeviceSoap" binding="tns:SmartDeviceSoap">
+      <soap:address location="http://localhost/Wms/Service/SmartDevice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmartDeviceSoap12" binding="tns:SmartDeviceSoap12">
+      <soap12:address location="http://localhost/Wms/Service/SmartDevice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmartDeviceHttpGet" binding="tns:SmartDeviceHttpGet">
+      <http:address location="http://localhost/Wms/Service/SmartDevice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmartDeviceHttpPost" binding="tns:SmartDeviceHttpPost">
+      <http:address location="http://localhost/Wms/Service/SmartDevice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

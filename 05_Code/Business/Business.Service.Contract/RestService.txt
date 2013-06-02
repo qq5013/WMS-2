@@ -1,0 +1,13 @@
+﻿{Warehouse}/{Aisle}|{Area}|{Shelf}|{Location}|{ContainerType}|{Container}/Get|Query|Create|Update|Delete
+
+GET {Entity}|{ChildEntity}/Get         
+GET {Entity}|{ChildEntity}/Get?ID={ID}
+GET {Entity}|{ChildEntity}/Get/{Code}
+PUT {Entity}|{ChildEntity}/Query
+PUT　{Entity}|{ChildEntity}/Page
+POST {Entity}|{ChildEntity}/Create
+PUT {Entity}|{ChildEntity}/Update
+DELETE {Entity}|{ChildEntity}/Delete
+DELETE {Entity}|{ChildEntity}/Delete?ID={ID} 
+
+/{Application}/Parameter/{Code}

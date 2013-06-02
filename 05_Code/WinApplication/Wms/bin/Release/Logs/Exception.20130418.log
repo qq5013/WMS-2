@@ -1,0 +1,84 @@
+****************************************
+2013-04-18 15:32:42 - [EXCEPTION]: 
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“ShellForm”。
+   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 DevExpress.XtraEditors.XtraForm.CreateHandle()
+   在 DevExpress.XtraBars.Ribbon.RibbonForm.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 DevExpress.XtraBars.Ribbon.RibbonForm.SetVisibleCore(Boolean value)
+   在 Wms.ShellForm.ShellForm_Load(Object sender, EventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Wms\ShellForm.cs:行号 133
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 DevExpress.XtraEditors.XtraForm.WndProc(Message& msg)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+****************************************
+
+****************************************
+2013-04-18 15:32:42 - [EXCEPTION]: 
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“ShellForm”。
+   在 System.Windows.Forms.Control.CreateHandle()
+   在 System.Windows.Forms.Form.CreateHandle()
+   在 DevExpress.XtraEditors.XtraForm.CreateHandle()
+   在 DevExpress.XtraBars.Ribbon.RibbonForm.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.ContainerControl.FocusActiveControlInternal()
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 DevExpress.XtraBars.Ribbon.RibbonForm.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 Microsoft.Practices.CompositeUI.WinForms.FormShellApplication`2.Start()
+   在 Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   在 Wms.ShellApplication.Main() 位置 e:\Taocode\myWMS\05_Code\WinApplication\Wms\ShellApplication.cs:行号 94
+****************************************
+
+****************************************
+2013-04-18 15:33:16 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 682
+****************************************
+
+****************************************
+2013-04-18 15:33:16 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 682
+****************************************
+
+****************************************
+2013-04-18 16:52:07 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToParent(LocalDataInfo localInfo) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 654
+****************************************
+
+****************************************
+2013-04-18 16:52:07 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 682
+****************************************
+
+****************************************
+2013-04-18 17:10:21 - [EXCEPTION]: 
+System.ArgumentException: 未找到属性设置方法。
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 Modules.InboundPlanModule.Views.InboundPlanEditForm.ObjCopyToLocal(IList`1 entyInfoList) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\InboundPlan\Views\InboundPlanEditForm.cs:行号 682
+****************************************
+

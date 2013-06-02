@@ -1,0 +1,11 @@
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Business.DataAccess.Contract.dll
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Business.DataAccess.Contract.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Business.Common.dll
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Business.Domain.dll
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Framework.Core.dll
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Business.Common.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Business.Domain.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\obj\Debug\Business.DataAccess.Contract.csprojResolveAssemblyReference.cache
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\obj\Debug\Business.DataAccess.Contract.dll
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\obj\Debug\Business.DataAccess.Contract.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.DataAccess.Contract\bin\Debug\Framework.Core.pdb

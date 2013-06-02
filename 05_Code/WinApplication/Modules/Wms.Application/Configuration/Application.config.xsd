@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ApplicationConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ApplicationName" type="xs:string" minOccurs="0" />
+        <xs:element name="MainMenu" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MenuGroup" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Menu" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="ID" type="xs:string" />
+                        <xs:attribute name="Name" type="xs:string" />
+                        <xs:attribute name="Caption" type="xs:string" />
+                        <xs:attribute name="Icon" type="xs:string" />
+                        <xs:attribute name="Shortcut" type="xs:string" />
+                        <xs:attribute name="Command" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="xs:string" />
+                  <xs:attribute name="Name" type="xs:string" />
+                  <xs:attribute name="Caption" type="xs:string" />
+                  <xs:attribute name="Shortcut" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ApplicationConfig" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

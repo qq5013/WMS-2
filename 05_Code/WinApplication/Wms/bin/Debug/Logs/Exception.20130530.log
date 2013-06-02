@@ -1,0 +1,361 @@
+****************************************
+2013-05-30 10:41:39 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 10:41:39 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 10:43:27 - [EXCEPTION]: 
+System.ServiceModel.FaultException`1[Business.Common.Exception.ServiceError]: 容器不存在。 (错误详细信息等于 Business.Common.Exception.ServiceError)。
+****************************************
+
+****************************************
+2013-05-30 10:43:44 - [EXCEPTION]: 
+System.ServiceModel.FaultException`1[Business.Common.Exception.ServiceError]: 容器不存在。 (错误详细信息等于 Business.Common.Exception.ServiceError)。
+****************************************
+
+****************************************
+2013-05-30 10:55:47 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 10:55:47 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 10:55:53 - [EXCEPTION]: 
+System.ServiceModel.FaultException`1[Business.Common.Exception.ServiceError]: 容器不存在。 (错误详细信息等于 Business.Common.Exception.ServiceError)。
+****************************************
+
+****************************************
+2013-05-30 10:56:37 - [EXCEPTION]: 
+System.ServiceModel.FaultException`1[Business.Common.Exception.ServiceError]: 容器不存在。 (错误详细信息等于 Business.Common.Exception.ServiceError)。
+****************************************
+
+****************************************
+2013-05-30 11:00:55 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:00:55 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:09:18 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:09:18 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:26:09 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:26:09 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:33:23 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:33:23 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:38:25 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:38:25 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:53:46 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 11:53:46 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 14:14:44 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 14:14:44 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 14:15:38 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 14:15:38 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:01:21 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:01:21 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:05:24 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:05:24 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:14:26 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:14:26 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:15:03 - [EXCEPTION]: 
+System.ServiceModel.ActionNotSupportedException: The message with Action 'http://tempuri.org/IInboundService/GetSerialNumber' cannot be processed at the receiver, due to a ContractFilter mismatch at the EndpointDispatcher. This may be because of either a contract mismatch (mismatched Actions between sender and receiver) or a binding/security mismatch between the sender and the receiver.  Check that sender and receiver have the same contract and the same binding (including security requirements, e.g. Message, Transport, None).
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Business.Service.Contract.IInboundService.GetSerialNumber(Int32 planId, Int32 skuId, Int32 packId, String sn)
+   在 Modules.ReceiveModule.Views.ReceiveForm.ValidateSNBarcode(String sn) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\Views\ReceiveForm.cs:行号 1051
+****************************************
+
+****************************************
+2013-05-30 16:17:23 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 16:17:23 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 17:12:24 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 17:12:24 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 17:13:42 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 17:13:42 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:11:09 - [EXCEPTION]: 
+System.ArgumentException: 无效的成员名称。
+   在 System.ComponentModel.MemberDescriptor..ctor(String name, Attribute[] attributes)
+   在 DevExpress.Data.Helpers.BaseDataControllerHelper.CreateUnboundPropertyDescriptor(UnboundColumnInfo info)
+   在 DevExpress.Data.Helpers.BaseDataControllerHelper.PopulateColumns()
+   在 DevExpress.Data.DataControllerBase.PopulateColumns()
+   在 DevExpress.XtraEditors.ListControls.LookUpListDataAdapter.ColumnCollectionChanged(CollectionChangeEventArgs e)
+   在 DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit.Columns_CollectionChanged(Object sender, CollectionChangeEventArgs e)
+   在 System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   在 Modules.ReceiveModule.Views.ReceiveForm.LoadReceivingInboundPlan() 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\Views\ReceiveForm.cs:行号 70
+   在 Modules.ReceiveModule.Views.ReceiveForm.ReceiveForm_Load(Object sender, EventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\Views\ReceiveForm.cs:行号 60
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 WCPierce.Practices.CompositeUI.WinForms.TabbedDocumentWorkspace.OnShow(Control smartPart, TabbedDocumentSmartPartInfo smartPartInfo)
+   在 Microsoft.Practices.CompositeUI.SmartParts.Workspace`2.Show(Object smartPart, ISmartPartInfo smartPartInfo)
+   在 Modules.ReceiveModule.ReceiveController.ShowReceiveFormHandler(Object sender, EventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\ReceiveController.cs:行号 74
+   在 Microsoft.Practices.CompositeUI.Commands.Command.OnExecuteAction(Object sender, EventArgs e)
+   在 Microsoft.Practices.CompositeUI.Commands.Command.Execute()
+   在 Wms.ShellForm.iReceive_ItemClick(Object sender, ItemClickEventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Wms\ShellForm.cs:行号 382
+   在 DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   在 DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   在 DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   在 DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   在 DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPressItem(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   在 DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   在 DevExpress.XtraBars.Ribbon.Handler.RibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   在 DevExpress.XtraBars.Ribbon.RibbonControl.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraBars.Ribbon.RibbonControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+****************************************
+
+****************************************
+2013-05-30 19:12:11 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:12:11 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:14:29 - [EXCEPTION]: 
+System.ArgumentException: 无效的成员名称。
+   在 System.ComponentModel.MemberDescriptor..ctor(String name, Attribute[] attributes)
+   在 DevExpress.Data.Helpers.BaseDataControllerHelper.CreateUnboundPropertyDescriptor(UnboundColumnInfo info)
+   在 DevExpress.Data.Helpers.BaseDataControllerHelper.PopulateColumns()
+   在 DevExpress.Data.DataControllerBase.PopulateColumns()
+   在 DevExpress.XtraEditors.ListControls.LookUpListDataAdapter.ColumnCollectionChanged(CollectionChangeEventArgs e)
+   在 DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit.Columns_CollectionChanged(Object sender, CollectionChangeEventArgs e)
+   在 System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   在 Modules.ReceiveModule.Views.ReceiveForm.LoadReceivingInboundPlan() 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\Views\ReceiveForm.cs:行号 70
+   在 Modules.ReceiveModule.Views.ReceiveForm.ReceiveForm_Load(Object sender, EventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\Views\ReceiveForm.cs:行号 60
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 WCPierce.Practices.CompositeUI.WinForms.TabbedDocumentWorkspace.OnShow(Control smartPart, TabbedDocumentSmartPartInfo smartPartInfo)
+   在 Microsoft.Practices.CompositeUI.SmartParts.Workspace`2.Show(Object smartPart, ISmartPartInfo smartPartInfo)
+   在 Modules.ReceiveModule.ReceiveController.ShowReceiveFormHandler(Object sender, EventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Modules\Wms.Inbound\Modules\Receive\ReceiveController.cs:行号 74
+   在 Microsoft.Practices.CompositeUI.Commands.Command.OnExecuteAction(Object sender, EventArgs e)
+   在 Microsoft.Practices.CompositeUI.Commands.Command.Execute()
+   在 Wms.ShellForm.iReceive_ItemClick(Object sender, ItemClickEventArgs e) 位置 e:\Taocode\myWMS\05_Code\WinApplication\Wms\ShellForm.cs:行号 382
+   在 DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   在 DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   在 DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   在 DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   在 DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnUnPressItem(DXMouseEventArgs e, RibbonHitInfo hitInfo)
+   在 DevExpress.XtraBars.Ribbon.Handler.BaseRibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   在 DevExpress.XtraBars.Ribbon.Handler.RibbonHandler.OnMouseUp(DXMouseEventArgs e)
+   在 DevExpress.XtraBars.Ribbon.RibbonControl.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   在 DevExpress.XtraBars.Ribbon.RibbonControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+****************************************
+
+****************************************
+2013-05-30 19:18:41 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:18:41 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:18:48 - [EXCEPTION]: 
+System.ServiceModel.FaultException`1[Business.Common.Exception.ServiceError]: 容器不存在。 (错误详细信息等于 Business.Common.Exception.ServiceError)。
+****************************************
+
+****************************************
+2013-05-30 19:34:48 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:38:50 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:49:30 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+
+****************************************
+2013-05-30 19:49:30 - [EXCEPTION]: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Framework.UI.Template.Common.FormHelper.SetGridColumn(GridView view, String columnName, String columnCaption, Int32 columnWidth, Int32 columnIndex, Boolean isVisiable) 位置 e:\Taocode\myFramework\05_Code\Framework.UI.Template\Common\FormHelper.cs:行号 31
+****************************************
+

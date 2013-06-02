@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8748D970-D803-43AF-9246-A79EB6CDE32C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business.DataAccess</RootNamespace>
+    <AssemblyName>Business.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.Core">
+      <HintPath>..\..\Library\Framework\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Database">
+      <HintPath>..\..\Library\Framework\Framework.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatabaseConfigName.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Inventory\InboundTaskDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundTaskRepository.cs" />
+    <Compile Include="Repository\Inventory\Views\CountBillDetailViewRepository.cs" />
+    <Compile Include="Repository\Inventory\Views\StockLogViewRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\Application\ApplicationRepository.cs" />
+    <Compile Include="Repository\Application\GroupUserRepository.cs" />
+    <Compile Include="Repository\Application\ParameterRepository.cs" />
+    <Compile Include="Repository\Application\UserRepository.cs" />
+    <Compile Include="Repository\Application\GroupRepository.cs" />
+    <Compile Include="Repository\Application\RoleGroupRepository.cs" />
+    <Compile Include="Repository\Application\RoleUserRepository.cs" />
+    <Compile Include="Repository\Application\DataDictionaryRepository.cs" />
+    <Compile Include="Repository\Application\FunctionRepository.cs" />
+    <Compile Include="Repository\Application\RoleFunctionRepository.cs" />
+    <Compile Include="Repository\Application\RoleRepository.cs" />
+    <Compile Include="Repository\Inventory\BillSnRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundBillAggregateRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundBillExceptionRepository.cs" />
+    <Compile Include="Repository\Inventory\StockRepository.cs" />
+    <Compile Include="Repository\Inventory\StockLogRepository.cs" />
+    <Compile Include="Repository\Inventory\StockSnRepository.cs" />
+    <Compile Include="Repository\Inventory\StockSnLogRepository.cs" />
+    <Compile Include="Repository\Inventory\TransferBillRepository.cs" />
+    <Compile Include="Repository\Inventory\TransferBillDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\SerialNumberRepository.cs" />
+    <Compile Include="Repository\Inventory\SortBillRepository.cs" />
+    <Compile Include="Repository\Inventory\SortBillDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\PickBillRepository.cs" />
+    <Compile Include="Repository\Inventory\PickBillDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\PickWaveRepository.cs" />
+    <Compile Include="Repository\Inventory\PackageDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\PackageRepository.cs" />
+    <Compile Include="Repository\Inventory\OutboundBillRepository.cs" />
+    <Compile Include="Repository\Inventory\OutboundBillDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\OutboundPlanRepository.cs" />
+    <Compile Include="Repository\Inventory\OutboundPlanDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\LockRepository.cs" />
+    <Compile Include="Repository\Inventory\LockLogRepository.cs" />
+    <Compile Include="Repository\Inventory\OperationLogRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundBatchRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundBillRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundBillDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundPlanRepository.cs" />
+    <Compile Include="Repository\Inventory\InboundPlanDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\DistributionRepository.cs" />
+    <Compile Include="Repository\Inventory\CountBillRepository.cs" />
+    <Compile Include="Repository\Inventory\CountBillDetailRepository.cs" />
+    <Compile Include="Repository\Inventory\Views\StockViewRepository.cs" />
+    <Compile Include="Repository\Warehouse\AisleRepository.cs" />
+    <Compile Include="Repository\Warehouse\AreaRepository.cs" />
+    <Compile Include="Repository\Warehouse\AreaGroupRepository.cs" />
+    <Compile Include="Repository\Warehouse\ContainerTypeRepository.cs" />
+    <Compile Include="Repository\Warehouse\ContainerRepository.cs" />
+    <Compile Include="Repository\Warehouse\SkuTagRepository.cs" />
+    <Compile Include="Repository\Warehouse\TagRepository.cs" />
+    <Compile Include="Repository\Warehouse\ShelfRepository.cs" />
+    <Compile Include="Repository\Warehouse\SettingRepository.cs" />
+    <Compile Include="Repository\Warehouse\SafetyStockRepository.cs" />
+    <Compile Include="Repository\Warehouse\OperatorGroupRepository.cs" />
+    <Compile Include="Repository\Warehouse\LocationTagRepository.cs" />
+    <Compile Include="Repository\Warehouse\LocationSafetyStockRepository.cs" />
+    <Compile Include="Repository\Warehouse\LocationRepository.cs" />
+    <Compile Include="Repository\Warehouse\GroupMemberRepository.cs" />
+    <Compile Include="Repository\Warehouse\Views\LocationViewRepository.cs" />
+    <Compile Include="Repository\Warehouse\Views\LocationTagViewRepository.cs" />
+    <Compile Include="Repository\Warehouse\Views\SkuTagViewRepository.cs" />
+    <Compile Include="Repository\Wms\BatchPropertyRepository.cs" />
+    <Compile Include="Repository\Wms\CategoryManagementRepository.cs" />
+    <Compile Include="Repository\Wms\CategoryPropertyRepository.cs" />
+    <Compile Include="Repository\Wms\CompanyRepository.cs" />
+    <Compile Include="Repository\Wms\CompanyTypeRepository.cs" />
+    <Compile Include="Repository\Wms\SkuImageRepository.cs" />
+    <Compile Include="Repository\Wms\SkuViewRepository.cs" />
+    <Compile Include="Repository\Wms\WarehouseRepository.cs" />
+    <Compile Include="Repository\Wms\WarehouseUserRepository.cs" />
+    <Compile Include="Repository\Wms\SkuRepository.cs" />
+    <Compile Include="Repository\Wms\SkuPropertyRepository.cs" />
+    <Compile Include="Repository\Wms\SkuManagementRepository.cs" />
+    <Compile Include="Repository\Wms\PackRepository.cs" />
+    <Compile Include="Repository\Wms\DistrictRepository.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Common\Business.Common.csproj">
+      <Project>{9C1A45E0-6FC9-4733-89A4-ED7D169D83B8}</Project>
+      <Name>Business.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business.DataAccess.Contract\Business.DataAccess.Contract.csproj">
+      <Project>{7C31DCA1-6ADC-4914-B166-C5D950454B2F}</Project>
+      <Name>Business.DataAccess.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business.Domain\Business.Domain.csproj">
+      <Project>{8A3BB2E6-237C-4CC0-945B-D849C0039DB2}</Project>
+      <Name>Business.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\Application.config" />
+    <None Include="Configuration\Inventory.config" />
+    <None Include="Configuration\Wms.config" />
+    <None Include="Configuration\Warehouse.config" />
+    <None Include="Configuration\Database.config" />
+    <None Include="Configuration\Providers.config" />
+    <None Include="Configuration\SqlMap.config" />
+    <Content Include="DataMapper\Application\Application.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\DataDictionary.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\Function.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\Group.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\GroupUser.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\Parameter.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\Role.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\RoleFunction.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\RoleGroup.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\RoleUser.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\User.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\Null.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Application\UserFunctionView.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataMapper\Inventory\BillSn.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\CountBill.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\CountBillDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\Distribution.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\InboundBatch.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\InboundBill.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\InboundBillAggregate.config" />
+    <None Include="DataMapper\Inventory\InboundBillDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\InboundBillException.config" />
+    <None Include="DataMapper\Inventory\InboundPlan.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\InboundPlanDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DataMapper\Inventory\InboundTask.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataMapper\Inventory\InboundTaskDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataMapper\Inventory\Lock.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataMapper\Inventory\LockLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\OperationLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\OutboundBill.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\OutboundBillDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\OutboundPlan.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\OutboundPlanDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\Package.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\PackageDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\PickBill.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\PickBillDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\PickWave.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\SerialNumber.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\SortBill.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\SortBillDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\Stock.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataMapper\Inventory\StockLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\StockSn.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\StockSnLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\TransferBill.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Inventory\TransferBillDetail.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Aisle.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Area.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\AreaGroup.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Container.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\ContainerType.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\GroupMember.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Location.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\LocationSafetyStock.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\LocationTag.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\OperatorGroup.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataMapper\Warehouse\SafetyStock.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Setting.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Shelf.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\SkuTag.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Warehouse\Tag.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataMapper\Wms\BatchProperty.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\CategoryManagement.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\CategoryProperty.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\Company.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\CompanyType.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\District.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\Pack.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\Sku.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DataMapper\Wms\SkuImage.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataMapper\Wms\SkuManagement.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\SkuProperty.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\Warehouse.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataMapper\Wms\WarehouseUser.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

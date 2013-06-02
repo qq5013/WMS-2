@@ -1,0 +1,13 @@
+E:\Taocode\myWMS\05_Code\MES.Board\bin\Debug\MES.Board.exe.config
+E:\Taocode\myWMS\05_Code\MES.Board\bin\Debug\MES.Board.exe
+E:\Taocode\myWMS\05_Code\MES.Board\bin\Debug\MES.Board.pdb
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board.csprojResolveAssemblyReference.cache
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MainWindow.baml
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MainWindow.g.cs
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\App.g.cs
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board_MarkupCompile.cache
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board.g.resources
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board.Properties.Resources.resources
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board.csproj.GenerateResource.Cache
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board.exe
+E:\Taocode\myWMS\05_Code\MES.Board\obj\Debug\MES.Board.pdb

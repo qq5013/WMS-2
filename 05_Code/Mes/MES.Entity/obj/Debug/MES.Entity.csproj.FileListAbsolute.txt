@@ -1,0 +1,7 @@
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\bin\Debug\MES.Entity.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\bin\Debug\MES.Entity.pdb
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\bin\Debug\Frame.Utils.Core.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\bin\Debug\Frame.Utils.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\obj\Debug\MES.Entity.csprojResolveAssemblyReference.cache
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\obj\Debug\MES.Entity.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.Entity\obj\Debug\MES.Entity.pdb

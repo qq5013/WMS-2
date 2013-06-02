@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>d:\mes\Install\|d:\mes\Install2\|e:\mes\Install\|E:\SVN\03_SoftWare\00_Release\20101202%285%29\Install\|E:\SVN\03_SoftWare\00_Release\20101202%284%29\Install\</PublishUrlHistory>
+    <InstallUrlHistory>http://192.168.10.10/Install/|http://192.168.10.10/|http://192.168.10.10/WinForm/|http://192.168.1.10/Install/|http://192.168.10/Install/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>http://192.168.10.10/Install/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

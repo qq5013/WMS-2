@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D1AC4F3-51F1-41BA-813A-778173BEF13B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mes.Product</RootNamespace>
+    <AssemblyName>Mes.Product</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DirectSql">
+      <HintPath>..\Library\DirectSql.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils">
+      <HintPath>..\Mes\MES.BllService\bin\Debug\Frame.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Mes\RefLib\Frame.Utils.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Business\Business.DataAccess.Contract\bin\Debug\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.UI.Template">
+      <HintPath>..\Library\Framework\Framework.UI.Template.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI">
+      <HintPath>..\Library\CompositeUI\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms">
+      <HintPath>..\Library\CompositeUI\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\CompositeUI\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WCPierce.Practices.CompositeUI.WinForms">
+      <HintPath>..\Library\CompositeUI\WCPierce.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarcodeLabel.cs" />
+    <Compile Include="ObjectExtension.cs" />
+    <Compile Include="ControllerHelper.cs" />
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionDetailModel.cs" />
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionDetailEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionDetailEditForm.Designer.cs">
+      <DependentUpon>MaterialRequisitionDetailEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionEditForm.Designer.cs">
+      <DependentUpon>MaterialRequisitionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\MaterialRequisitionModel\MaterialRequisitionListForm.Designer.cs">
+      <DependentUpon>MaterialRequisitionListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MaterialRequisitionModel\SkuLabel.cs" />
+    <Compile Include="Modules\ProcessModule\ProcessStepModel.cs" />
+    <Compile Include="Modules\ProcessModule\ProcessDetailEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProcessModule\ProcessDetailEditForm.Designer.cs">
+      <DependentUpon>ProcessDetailEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProcessModule\ProcessEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProcessModule\ProcessEditForm.Designer.cs">
+      <DependentUpon>ProcessEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProcessModule\ProcessListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProcessModule\ProcessListForm.Designer.cs">
+      <DependentUpon>ProcessListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessCabModuleInit.cs" />
+    <Compile Include="ProductController.cs" />
+    <Compile Include="ProcessWorkItem.cs" />
+    <Compile Include="Modules\ProductionOrderModel\SkuLabel.cs" />
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderDetailModel.cs" />
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderDetailEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderDetailEditForm.Designer.cs">
+      <DependentUpon>ProductionOrderDetailEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderEditForm.Designer.cs">
+      <DependentUpon>ProductionOrderEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionOrderModel\ProductionOrderListForm.Designer.cs">
+      <DependentUpon>ProductionOrderListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductLineModel\ProductLineEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductLineModel\ProductLineEditForm.Designer.cs">
+      <DependentUpon>ProductLineEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductLineModel\ProductLineListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductLineModel\ProductLineListForm.Designer.cs">
+      <DependentUpon>ProductLineListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionPlanModel\SkuLabel.cs" />
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanDetailModel.cs" />
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanDetailEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanDetailEditForm.Designer.cs">
+      <DependentUpon>ProductionPlanDetailEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanEditForm.Designer.cs">
+      <DependentUpon>ProductionPlanEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductionPlanModel\ProductionPlanListForm.Designer.cs">
+      <DependentUpon>ProductionPlanListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductStationModel\ProductStationEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductStationModel\ProductStationEditForm.Designer.cs">
+      <DependentUpon>ProductStationEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductStationModel\ProductStationListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductStationModel\ProductStationListForm.Designer.cs">
+      <DependentUpon>ProductStationListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modules\MaterialRequisitionModel\MaterialRequisitionDetailEditForm.resx">
+      <DependentUpon>MaterialRequisitionDetailEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\MaterialRequisitionModel\MaterialRequisitionEditForm.resx">
+      <DependentUpon>MaterialRequisitionEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\MaterialRequisitionModel\MaterialRequisitionListForm.resx">
+      <DependentUpon>MaterialRequisitionListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProcessModule\ProcessDetailEditForm.resx">
+      <DependentUpon>ProcessDetailEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProcessModule\ProcessEditForm.resx">
+      <DependentUpon>ProcessEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProcessModule\ProcessListForm.resx">
+      <DependentUpon>ProcessListForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionOrderModel\ProductionOrderDetailEditForm.resx">
+      <DependentUpon>ProductionOrderDetailEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionOrderModel\ProductionOrderEditForm.resx">
+      <DependentUpon>ProductionOrderEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionOrderModel\ProductionOrderListForm.resx">
+      <DependentUpon>ProductionOrderListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductLineModel\ProductLineEditForm.resx">
+      <DependentUpon>ProductLineEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductLineModel\ProductLineListForm.resx">
+      <DependentUpon>ProductLineListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionPlanModel\ProductionPlanDetailEditForm.resx">
+      <DependentUpon>ProductionPlanDetailEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionPlanModel\ProductionPlanEditForm.resx">
+      <DependentUpon>ProductionPlanEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductionPlanModel\ProductionPlanListForm.resx">
+      <DependentUpon>ProductionPlanListForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductStationModel\ProductStationEditForm.resx">
+      <DependentUpon>ProductStationEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ProductStationModel\ProductStationListForm.resx">
+      <DependentUpon>ProductStationListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.Common\Business.Common.csproj">
+      <Project>{9C1A45E0-6FC9-4733-89A4-ED7D169D83B8}</Project>
+      <Name>Business.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\Business.Domain\Business.Domain.csproj">
+      <Project>{8A3BB2E6-237C-4CC0-945B-D849C0039DB2}</Project>
+      <Name>Business.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\Business.Service.Contract\Business.Service.Contract.csproj">
+      <Project>{7B9C459A-00E3-4AEA-AD14-7876618A49AF}</Project>
+      <Name>Business.Service.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mes\MES.BllService\MES.BllService.csproj">
+      <Project>{A91331D2-36E0-44AD-897F-9D48D4BD83C0}</Project>
+      <Name>MES.BllService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mes\MES.Common\MES.Common.csproj">
+      <Project>{99ADE35D-E78B-40F2-AEED-7A97ABB7568C}</Project>
+      <Name>MES.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mes\MES.Entity\MES.Entity.csproj">
+      <Project>{8FE4C242-3C95-46F9-812F-CC0A59F781ED}</Project>
+      <Name>MES.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinApplication\Modules\Wms.BasicData\Wms.BasicData.csproj">
+      <Project>{3A4704F1-1078-46A8-9626-50EEB20E7792}</Project>
+      <Name>Wms.BasicData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinApplication\Wms.Common\Wms.Common.csproj">
+      <Project>{3A9F2BFE-B770-4810-8337-DF360DCBBED1}</Project>
+      <Name>Wms.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\ProcessModule\Views\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

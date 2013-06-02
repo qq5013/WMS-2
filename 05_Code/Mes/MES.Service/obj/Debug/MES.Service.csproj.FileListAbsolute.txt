@@ -1,0 +1,5 @@
+E:\Taocode\myWMS\05_Code\Mes\MES.Service\bin\MES.Service.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.Service\bin\MES.Service.pdb
+E:\Taocode\myWMS\05_Code\Mes\MES.Service\obj\Debug\MES.Service.dll
+E:\Taocode\myWMS\05_Code\Mes\MES.Service\obj\Debug\MES.Service.pdb
+E:\Taocode\myWMS\05_Code\Mes\MES.Service\obj\Debug\MES.Service.csprojResolveAssemblyReference.cache

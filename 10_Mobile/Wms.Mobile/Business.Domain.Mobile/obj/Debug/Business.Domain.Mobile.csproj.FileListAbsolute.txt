@@ -1,0 +1,5 @@
+E:\Taocode\myWMS\10_Mobile\Wms.Mobile\Business.Domain.Mobile\bin\Debug\Business.Domain.Mobile.dll
+E:\Taocode\myWMS\10_Mobile\Wms.Mobile\Business.Domain.Mobile\bin\Debug\Business.Domain.Mobile.pdb
+E:\Taocode\myWMS\10_Mobile\Wms.Mobile\Business.Domain.Mobile\obj\Debug\ResolveAssemblyReference.cache
+E:\Taocode\myWMS\10_Mobile\Wms.Mobile\Business.Domain.Mobile\obj\Debug\Business.Domain.Mobile.dll
+E:\Taocode\myWMS\10_Mobile\Wms.Mobile\Business.Domain.Mobile\obj\Debug\Business.Domain.Mobile.pdb

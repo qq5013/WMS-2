@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationConfig>
+	<ApplicationName>WMS</ApplicationName>
+	<MainMenu>
+		<MenuGroup ID="mngInboundManagement" Name="Inbound Management" Caption="货物入库管理" Shortcut="">
+			<Menu ID="mniInboundPlan" Name="Inbound Plan" Caption="入库计划维护" Icon="" Shortcut="INBOUNDPLAN" Command="Modules.InboundPlan.ShowForm"></Menu>
+      <Menu ID="mniPrintLabel" Name="Print Label" Caption="打印条码标签" Icon="" Shortcut="PRINTLABEL" Command="Modules.PrintLabel.ShowForm"></Menu>
+      <Menu ID="mniReceiveGoods" Name="Receive Goods" Caption="收货处理" Icon="" Shortcut="RECEIVEGOODS" Command="Modules.ReceiveGoods.ShowForm"></Menu>
+      <Menu ID="mniInboundBill" Name="Inbound Bill" Caption="入库单维护" Icon="" Shortcut="INBOUNDBILL" Command="Modules.InboundBill.ShowForm"></Menu>
+		</MenuGroup>
+		<MenuGroup ID="mngOutboundManagement" Name="Outbound Management" Caption="货物出库管理" Shortcut="">
+			<Menu ID="mniOutboundPlan" Name="Outbound Plan" Caption="出库计划维护" Icon="" Shortcut="OUTBOUNDPLAN" Command="Modules.OutBoundPlan.ShowForm"></Menu>
+			<Menu ID="mniPickBill" Name="Pick Bill" Caption="拣货单维护" Icon="" Shortcut="PICKBILL" Command="Modules.PickBill.ShowForm"></Menu>
+      <Menu ID="mniIssueGoods" Name="Issue Goods" Caption="发货处理" Icon="" Shortcut="ISSUEGOODS" Command="Modules.IssueGoods.ShowForm"></Menu>
+      <Menu ID="mniOutboundBill" Name="Outbound Bill" Caption="出库单维护" Icon="" Shortcut="OUTBOUNDBILL" Command="Modules.OutboundBill.ShowForm"></Menu>
+		</MenuGroup>
+		<MenuGroup ID="mngWarehouseManagement" Name="WarehouseManagement" Caption="货物库内管理" Shortcut="">
+			<Menu ID="mniStockQuery" Name="Stock Query" Caption="实时库存查询" Icon="" Shortcut="STOCK" Command="Modules.Stock.ShowForm"></Menu>
+      <Menu ID="mniStockLogQuery" Name="StockLog Query" Caption="库存日志查询" Icon="" Shortcut="STOCKLOG" Command="Modules.StockLog.ShowForm"></Menu>
+      <Menu ID="mniTransferBill" Name="Transfer Bill" Caption="移货单维护" Icon="" Shortcut="TRANSFERBILL" Command="Modules.TransferBill.ShowForm"></Menu>
+      <Menu ID="mniCountBill" Name="Count Bill" Caption="盘点单维护" Icon="" Shortcut="COUNTBILL" Command="Modules.CountBill.ShowForm"></Menu>
+			<Menu ID="mniLock" Name="Lock" Caption="库存锁定处理" Icon="" Shortcut="LOCK" Command="Modules.Lock.ShowForm"></Menu>
+		</MenuGroup>
+		<MenuGroup ID="mngWarehouseManagement" Name="Warehouse Management" Caption="仓库数据维护" Shortcut="">
+			<!--<Menu ID="mniOperationLog" Name="Operation Log" Caption="操作日志查询" Icon="" Shortcut="OPERATIONLOG" Command="Modules.OperationLog.ShowForm"></Menu>-->
+			<Menu ID="mniWarehouse" Name="Warehouse" Caption="仓库信息维护" Icon="" Shortcut="WAREHOUSE" Command="Modules.Warehouse.ShowForm"></Menu>
+			<Menu ID="mniArea" Name="Area" Caption="库区信息维护" Icon="" Shortcut="AREA" Command="Modules.Area.ShowForm"></Menu>
+			<Menu ID="mniShelf" Name="Shelf" Caption="货架信息维护" Icon="" Shortcut="SHELF" Command="Modules.Shelf.ShowForm"></Menu>
+			<Menu ID="mniLocation" Name="Location" Caption="库位信息维护" Icon="" Shortcut="LOCATION" Command="Modules.Location.ShowForm"></Menu>
+			<Menu ID="mniStorageUnitType" Name="StorageUnit Type" Caption="容器类型维护" Icon="" Shortcut="STORAGEUNITTYPE" Command="Modules.StorageUnitType.ShowForm"></Menu>
+			<Menu ID="mniStorageUnit" Name="StorageUnit" Caption="容器信息维护" Icon="" Shortcut="STORAGEUNIT" Command="Modules.StorageUnit.ShowForm"></Menu>
+      <Menu ID="mniTagPolicy" Name="Tag Policy" Caption="标签策略维护" Icon="TAGPOLICY" Shortcut="" Command="Modules.TagPolicy.ShowForm"></Menu>
+    </MenuGroup>
+    <MenuGroup ID="mngBasicDataManagement" Name="Basic Data Management" Caption="基本信息维护" Shortcut="">
+      <Menu ID="mniCategory" Name="CategoryManagement" Caption="管理分类维护" Icon="" Shortcut="CATEGORYMANAGEMENT" Command="CategoryManagementModule.ShowForm"></Menu>
+      <Menu ID="mniSku" Name="Sku" Caption="货物信息维护" Icon="" Shortcut="SKU" Command="SkuModule.ShowForm"></Menu>
+      <Menu ID="mniCompany" Name="Company" Caption="公司信息维护" Icon="" Shortcut="COMPANY" Command="CompanyModule.ShowForm"></Menu>
+      <Menu ID="mniDistrict" Name="District" Caption="地区信息维护" Icon="" Shortcut="DISTRICT" Command="DistrictModule.ShowForm"></Menu>
+    </MenuGroup>
+		<MenuGroup ID="mngSystemManagement" Name="System Management" Caption="应用系统管理" Shortcut="">
+			<Menu ID="mniUser" Name="User" Caption="系统用户维护" Icon="" Shortcut="USER" Command="UserModule.ShowForm"></Menu>
+      <Menu ID="mniGroup" Name="User Group" Caption="系统用户组维护" Icon="" Shortcut="GROUP" Command="GroupModule.ShowForm"></Menu>
+			<Menu ID="mniRole" Name="Role" Caption="系统角色维护" Icon="" Shortcut="ROLE" Command="RoleModule.ShowForm"></Menu>
+      <Menu ID="mniFunction" Name="Function" Caption="系统功能维护" Icon="" Shortcut="FUNCTION" Command="FunctionModule.ShowForm"></Menu>
+			<Menu ID="mniParameter" Name="Parameter" Caption="系统参数维护" Icon="" Shortcut="PARAMETER" Command="ParameterModule.ShowForm"></Menu>
+			<Menu ID="mniDataDictionary" Name="Data Dictionary" Caption="数据字典维护" Icon="" Shortcut="DATADICTIONARY" Command="DataDictionaryModule.ShowForm"></Menu>
+      <Menu ID="mniClose" Name="Close All" Caption="关闭所有窗口" Icon="" Shortcut="" Command="Application.CloseAllForm"></Menu>
+      <Menu ID="mniExit" Name="Exit" Caption="退出系统" Icon="" Shortcut="" Command="Application.Exit"></Menu>
+		</MenuGroup>
+	</MainMenu>
+</ApplicationConfig>

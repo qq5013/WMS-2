@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FE4C242-3C95-46F9-812F-CC0A59F781ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MES</RootNamespace>
+    <AssemblyName>MES.Entity</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Frame.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Frame.Utils.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RefLib\Frame.Utils.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\Bank.cs" />
+    <Compile Include="Entity\BarcodeRule.cs" />
+    <Compile Include="Entity\BillSequence.cs" />
+    <Compile Include="Entity\BillSequenceDetail.cs" />
+    <Compile Include="Entity\Company.cs" />
+    <Compile Include="Entity\MaterialRequisition.cs" />
+    <Compile Include="Entity\MaterialRequisitionDetail.cs" />
+    <Compile Include="Entity\Customer.cs" />
+    <Compile Include="Entity\DeliveryAddress.cs" />
+    <Compile Include="Entity\Department.cs" />
+    <Compile Include="Entity\Employee.cs" />
+    <Compile Include="Entity\EmployeeStation.cs" />
+    <Compile Include="Entity\UserInRole.cs" />
+    <Compile Include="Entity\Item.cs" />
+    <Compile Include="Entity\ItemInspect.cs" />
+    <Compile Include="Entity\ItemInspectDetail.cs" />
+    <Compile Include="Entity\ItemProcess.cs" />
+    <Compile Include="Entity\ItemProcessStep.cs" />
+    <Compile Include="Entity\ItemProcessStepDetail.cs" />
+    <Compile Include="Entity\ItemSampleInspect.cs" />
+    <Compile Include="Entity\ItemSampleInspectDetail.cs" />
+    <Compile Include="Entity\ItemSequence.cs" />
+    <Compile Include="Entity\Location.cs" />
+    <Compile Include="Entity\LoginLog.cs" />
+    <Compile Include="Entity\MaterielTrace.cs" />
+    <Compile Include="Entity\Measure.cs" />
+    <Compile Include="Entity\Payment.cs" />
+    <Compile Include="Entity\PcbInspect.cs" />
+    <Compile Include="Entity\PcbInspectConfig.cs" />
+    <Compile Include="Entity\PcbInspectDetail.cs" />
+    <Compile Include="Entity\Permission.cs" />
+    <Compile Include="Entity\PermissionInRole.cs" />
+    <Compile Include="Entity\Process.cs" />
+    <Compile Include="Entity\ProcessInProductStation.cs" />
+    <Compile Include="Entity\ProcessStep.cs" />
+    <Compile Include="Entity\ProcessStepDependency.cs" />
+    <Compile Include="Entity\ProcessStepDetail.cs" />
+    <Compile Include="Entity\Product.cs" />
+    <Compile Include="Entity\ProductCategory.cs" />
+    <Compile Include="Entity\ProductInspect.cs" />
+    <Compile Include="Entity\ProductionOrder.cs" />
+    <Compile Include="Entity\ProductionOrderDetail.cs" />
+    <Compile Include="Entity\ProductionOrderDetailTrace.cs" />
+    <Compile Include="Entity\ProductionPlan.cs" />
+    <Compile Include="Entity\ProductionPlanDetail.cs" />
+    <Compile Include="Entity\ProductionPlanMonthItem.cs" />
+    <Compile Include="Entity\ProductItemInspect.cs" />
+    <Compile Include="Entity\ProductLine.cs" />
+    <Compile Include="Entity\ProductStation.cs" />
+    <Compile Include="Entity\Rework.cs" />
+    <Compile Include="Entity\Role.cs" />
+    <Compile Include="Entity\ShipVia.cs" />
+    <Compile Include="Entity\Software.cs" />
+    <Compile Include="Entity\Storage.cs" />
+    <Compile Include="Entity\StorageTrace.cs" />
+    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\Vendor.cs" />
+    <Compile Include="Entity\Warehouse.cs" />
+    <Compile Include="Entity\Waster.cs" />
+    <Compile Include="Entity\WorkShop.cs" />
+    <Compile Include="Enum\CompanyType.cs" />
+    <Compile Include="Enum\InboundStatus.cs" />
+    <Compile Include="Enum\InboundType.cs" />
+    <Compile Include="Enum\ItemProcessStatus.cs" />
+    <Compile Include="Enum\ItemProcessStepDetailStatus.cs" />
+    <Compile Include="Enum\ItemProcessStepStatus.cs" />
+    <Compile Include="Enum\ItemStatus.cs" />
+    <Compile Include="Enum\MeasureType.cs" />
+    <Compile Include="Enum\OutboundStatus.cs" />
+    <Compile Include="Enum\OutboundType.cs" />
+    <Compile Include="Enum\PermissionType.cs" />
+    <Compile Include="Enum\ProcessType.cs" />
+    <Compile Include="Enum\ProductInspectType.cs" />
+    <Compile Include="Enum\ProductionOrderStatus.cs" />
+    <Compile Include="Enum\ProductionOrderType.cs" />
+    <Compile Include="Enum\ProductionPlanStatus.cs" />
+    <Compile Include="Enum\ProductItemInspectType.cs" />
+    <Compile Include="Enum\SalesOrderStatus.cs" />
+    <Compile Include="Enum\ProductLineStatus.cs" />
+    <Compile Include="Enum\ProductLineType.cs" />
+    <Compile Include="Enum\ProductNoType.cs" />
+    <Compile Include="Enum\ProductStationStatus.cs" />
+    <Compile Include="Enum\ProductStatus.cs" />
+    <Compile Include="Enum\ProductType.cs" />
+    <Compile Include="Enum\PurchaseOrderStatus.cs" />
+    <Compile Include="Enum\RuleType.cs" />
+    <Compile Include="Enum\TraceType.cs" />
+    <Compile Include="Enum\UnitType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkuInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

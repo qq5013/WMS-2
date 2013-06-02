@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gcGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gcGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 457</value>
+  </data>
+  <data name="gcGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 10</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gcGrid.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.Name" xml:space="preserve">
+    <value>gcGrid</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.Parent" xml:space="preserve">
+    <value>pnlClientZone</value>
+  </data>
+  <data name="&gt;&gt;gcGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gcCondition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gcCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 571</value>
+  </data>
+  <data name="gcCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 10</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.Name" xml:space="preserve">
+    <value>gcCondition</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;gcCondition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlClientZone.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pnlClientZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 636</value>
+  </data>
+  <data name="pnlClientZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 10</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.Name" xml:space="preserve">
+    <value>pnlClientZone</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlClientZone.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLocation9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation9.Name" xml:space="preserve">
+    <value>lblLocation9</value>
+  </data>
+  <data name="&gt;&gt;lblLocation9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation9.Parent" xml:space="preserve">
+    <value>Location9</value>
+  </data>
+  <data name="&gt;&gt;lblLocation9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 291</value>
+  </data>
+  <data name="Location9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Location9.Name" xml:space="preserve">
+    <value>Location9</value>
+  </data>
+  <data name="&gt;&gt;Location9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location9.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLocation11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation11.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation11.Name" xml:space="preserve">
+    <value>lblLocation11</value>
+  </data>
+  <data name="&gt;&gt;lblLocation11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation11.Parent" xml:space="preserve">
+    <value>Location11</value>
+  </data>
+  <data name="&gt;&gt;lblLocation11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 437</value>
+  </data>
+  <data name="Location11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location11.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Location11.Name" xml:space="preserve">
+    <value>Location11</value>
+  </data>
+  <data name="&gt;&gt;Location11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location11.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLocation4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblLocation4.Name" xml:space="preserve">
+    <value>lblLocation4</value>
+  </data>
+  <data name="&gt;&gt;lblLocation4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation4.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;lblLocation4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 82</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-113, 82</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 82</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 82</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-342, 82</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-227, 82</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Location4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 143</value>
+  </data>
+  <data name="Location4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Location4.Name" xml:space="preserve">
+    <value>Location4</value>
+  </data>
+  <data name="&gt;&gt;Location4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location4.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLocation10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation10.Name" xml:space="preserve">
+    <value>lblLocation10</value>
+  </data>
+  <data name="&gt;&gt;lblLocation10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation10.Parent" xml:space="preserve">
+    <value>Location10</value>
+  </data>
+  <data name="&gt;&gt;lblLocation10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 437</value>
+  </data>
+  <data name="Location10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Location10.Name" xml:space="preserve">
+    <value>Location10</value>
+  </data>
+  <data name="&gt;&gt;Location10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location10.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLocation12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation12.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation12.Name" xml:space="preserve">
+    <value>lblLocation12</value>
+  </data>
+  <data name="&gt;&gt;lblLocation12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation12.Parent" xml:space="preserve">
+    <value>Location12</value>
+  </data>
+  <data name="&gt;&gt;lblLocation12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 437</value>
+  </data>
+  <data name="Location12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location12.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Location12.Name" xml:space="preserve">
+    <value>Location12</value>
+  </data>
+  <data name="&gt;&gt;Location12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location12.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblLocation7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation7.Name" xml:space="preserve">
+    <value>lblLocation7</value>
+  </data>
+  <data name="&gt;&gt;lblLocation7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation7.Parent" xml:space="preserve">
+    <value>Location7</value>
+  </data>
+  <data name="&gt;&gt;lblLocation7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 292</value>
+  </data>
+  <data name="Location7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Location7.Name" xml:space="preserve">
+    <value>Location7</value>
+  </data>
+  <data name="&gt;&gt;Location7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location7.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblLocation1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblLocation1.Name" xml:space="preserve">
+    <value>lblLocation1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation1.Parent" xml:space="preserve">
+    <value>Location1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 6</value>
+  </data>
+  <data name="Location1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Location1.Name" xml:space="preserve">
+    <value>Location1</value>
+  </data>
+  <data name="&gt;&gt;Location1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location1.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblLocation3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation3.Name" xml:space="preserve">
+    <value>lblLocation3</value>
+  </data>
+  <data name="&gt;&gt;lblLocation3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation3.Parent" xml:space="preserve">
+    <value>Location3</value>
+  </data>
+  <data name="&gt;&gt;lblLocation3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 6</value>
+  </data>
+  <data name="Location3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Location3.Name" xml:space="preserve">
+    <value>Location3</value>
+  </data>
+  <data name="&gt;&gt;Location3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location3.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblLocation5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation5.Name" xml:space="preserve">
+    <value>lblLocation5</value>
+  </data>
+  <data name="&gt;&gt;lblLocation5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation5.Parent" xml:space="preserve">
+    <value>Location5</value>
+  </data>
+  <data name="&gt;&gt;lblLocation5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 143</value>
+  </data>
+  <data name="Location5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Location5.Name" xml:space="preserve">
+    <value>Location5</value>
+  </data>
+  <data name="&gt;&gt;Location5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location5.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblLocation2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation2.Name" xml:space="preserve">
+    <value>lblLocation2</value>
+  </data>
+  <data name="&gt;&gt;lblLocation2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation2.Parent" xml:space="preserve">
+    <value>Location2</value>
+  </data>
+  <data name="&gt;&gt;lblLocation2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 6</value>
+  </data>
+  <data name="Location2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Location2.Name" xml:space="preserve">
+    <value>Location2</value>
+  </data>
+  <data name="&gt;&gt;Location2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location2.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblLocation8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation8.Name" xml:space="preserve">
+    <value>lblLocation8</value>
+  </data>
+  <data name="&gt;&gt;lblLocation8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation8.Parent" xml:space="preserve">
+    <value>Location8</value>
+  </data>
+  <data name="&gt;&gt;lblLocation8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 291</value>
+  </data>
+  <data name="Location8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Location8.Name" xml:space="preserve">
+    <value>Location8</value>
+  </data>
+  <data name="&gt;&gt;Location8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location8.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblLocation6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocation6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="lblLocation6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocation6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLocation6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblLocation6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLocation6.Name" xml:space="preserve">
+    <value>lblLocation6</value>
+  </data>
+  <data name="&gt;&gt;lblLocation6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation6.Parent" xml:space="preserve">
+    <value>Location6</value>
+  </data>
+  <data name="&gt;&gt;lblLocation6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Location6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 143</value>
+  </data>
+  <data name="Location6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="Location6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Location6.Name" xml:space="preserve">
+    <value>Location6</value>
+  </data>
+  <data name="&gt;&gt;Location6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Location6.Parent" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;Location6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pnlCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 71</value>
+  </data>
+  <data name="pnlCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 572</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.Name" xml:space="preserve">
+    <value>pnlCondition</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlCondition.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LocationDisplayListForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Framework.UI.Template.Single.SingleListForm, Framework.UI.Template, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

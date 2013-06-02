@@ -1,0 +1,5 @@
+E:\Taocode\myWMS\05_Code\Business\Business.Domain\bin\Debug\Business.Domain.dll
+E:\Taocode\myWMS\05_Code\Business\Business.Domain\bin\Debug\Business.Domain.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.Domain\obj\Debug\Business.Domain.dll
+E:\Taocode\myWMS\05_Code\Business\Business.Domain\obj\Debug\Business.Domain.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.Domain\obj\Debug\Business.Domain.csprojResolveAssemblyReference.cache

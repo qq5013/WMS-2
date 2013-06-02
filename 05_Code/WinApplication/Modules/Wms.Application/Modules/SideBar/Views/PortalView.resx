@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;navBarControl1.Name" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 646</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="navBarGroup1.Caption" xml:space="preserve">
+    <value>待处理入库计划</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.Name" xml:space="preserve">
+    <value>lbIPList</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer1</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>907, 89</value>
+  </data>
+  <data name="navBarGroupControlContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer1.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer1.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer1.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.Name" xml:space="preserve">
+    <value>lbPLList</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer5</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 84</value>
+  </data>
+  <data name="navBarGroupControlContainer5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer5.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer5</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer5.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer5.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.Name" xml:space="preserve">
+    <value>lbOPList</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer3</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 100</value>
+  </data>
+  <data name="navBarGroupControlContainer3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer3.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer3</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer3.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer3.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.Name" xml:space="preserve">
+    <value>lbIBList</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer2</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 96</value>
+  </data>
+  <data name="navBarGroupControlContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer2.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer2</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer2.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer2.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.Name" xml:space="preserve">
+    <value>lbOBList</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer4</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 84</value>
+  </data>
+  <data name="navBarGroupControlContainer4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer4.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer4</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer4.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer4.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.Name" xml:space="preserve">
+    <value>lbCounting</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer6</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 84</value>
+  </data>
+  <data name="navBarGroupControlContainer6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer6.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer6</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer6.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer6.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gridQC.Name" xml:space="preserve">
+    <value>gridQC</value>
+  </data>
+  <data name="&gt;&gt;gridQC.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridQC.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer8</value>
+  </data>
+  <data name="&gt;&gt;gridQC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 164</value>
+  </data>
+  <data name="navBarGroupControlContainer8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer8.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer8</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer8.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer8.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.Name" xml:space="preserve">
+    <value>lbTBList</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer7</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="navBarGroupControlContainer7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 115</value>
+  </data>
+  <data name="navBarGroupControlContainer7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer7.Name" xml:space="preserve">
+    <value>navBarGroupControlContainer7</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer7.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroupControlContainer, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer7.Parent" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroupControlContainer7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="navBarControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="navBarControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 15.75pt</value>
+  </data>
+  <data name="navBarGroup2.Caption" xml:space="preserve">
+    <value>待处理入库单</value>
+  </data>
+  <data name="navBarGroup3.Caption" xml:space="preserve">
+    <value>待处理出库计划</value>
+  </data>
+  <data name="navBarGroup5.Caption" xml:space="preserve">
+    <value>待处理拣货单</value>
+  </data>
+  <data name="navBarGroup4.Caption" xml:space="preserve">
+    <value>待审核出库单</value>
+  </data>
+  <data name="navBarGroup6.Caption" xml:space="preserve">
+    <value>待处理盘点单</value>
+  </data>
+  <data name="navBarGroup8.Caption" xml:space="preserve">
+    <value>锁定中货物</value>
+  </data>
+  <data name="navBarGroup7.Caption" xml:space="preserve">
+    <value>待处理移货单</value>
+  </data>
+  <data name="navBarControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="resource.ExpandedWidth" type="System.Int32, mscorlib">
+    <value>876</value>
+  </data>
+  <data name="navBarControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>929, 642</value>
+  </data>
+  <data name="navBarControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="navBarControl1.Text" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.Name" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;navBarControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbIPList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbIPList.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbIPList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbIPList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>907, 89</value>
+  </data>
+  <data name="lbIPList.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.Name" xml:space="preserve">
+    <value>lbIPList</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer1</value>
+  </data>
+  <data name="&gt;&gt;lbIPList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbPLList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPLList.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbPLList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbPLList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 84</value>
+  </data>
+  <data name="lbPLList.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.Name" xml:space="preserve">
+    <value>lbPLList</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer5</value>
+  </data>
+  <data name="&gt;&gt;lbPLList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbOPList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbOPList.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbOPList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbOPList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 100</value>
+  </data>
+  <data name="lbOPList.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.Name" xml:space="preserve">
+    <value>lbOPList</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer3</value>
+  </data>
+  <data name="&gt;&gt;lbOPList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbIBList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbIBList.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbIBList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbIBList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 96</value>
+  </data>
+  <data name="lbIBList.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.Name" xml:space="preserve">
+    <value>lbIBList</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer2</value>
+  </data>
+  <data name="&gt;&gt;lbIBList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbOBList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbOBList.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbOBList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbOBList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 84</value>
+  </data>
+  <data name="lbOBList.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.Name" xml:space="preserve">
+    <value>lbOBList</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer4</value>
+  </data>
+  <data name="&gt;&gt;lbOBList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbCounting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbCounting.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbCounting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbCounting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 84</value>
+  </data>
+  <data name="lbCounting.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.Name" xml:space="preserve">
+    <value>lbCounting</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer6</value>
+  </data>
+  <data name="&gt;&gt;lbCounting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gridQC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridQC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="repositoryItemLookUpEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridQC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 164</value>
+  </data>
+  <data name="gridQC.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridQC.Name" xml:space="preserve">
+    <value>gridQC</value>
+  </data>
+  <data name="&gt;&gt;gridQC.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridQC.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer8</value>
+  </data>
+  <data name="&gt;&gt;gridQC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbTBList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbTBList.ItemHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lbTBList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbTBList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 115</value>
+  </data>
+  <data name="lbTBList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.Name" xml:space="preserve">
+    <value>lbTBList</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.Parent" xml:space="preserve">
+    <value>navBarGroupControlContainer7</value>
+  </data>
+  <data name="&gt;&gt;lbTBList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 585</value>
+  </data>
+  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 61</value>
+  </data>
+  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 607</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="navBarGroup9.Caption" xml:space="preserve">
+    <value>navBarGroup9</value>
+  </data>
+  <data name="navBarControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 329</value>
+  </data>
+  <data name="navBarControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 300</value>
+  </data>
+  <data name="navBarControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="navBarControl2.Text" xml:space="preserve">
+    <value>navBarControl2</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.Name" xml:space="preserve">
+    <value>navBarControl2</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 443</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 200</value>
+  </data>
+  <data name="gridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 10.5pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 646</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup1.Name" xml:space="preserve">
+    <value>navBarGroup1</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridViewQC.Name" xml:space="preserve">
+    <value>gridViewQC</value>
+  </data>
+  <data name="&gt;&gt;gridViewQC.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit2.Name" xml:space="preserve">
+    <value>repositoryItemLookUpEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup2.Name" xml:space="preserve">
+    <value>navBarGroup2</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup3.Name" xml:space="preserve">
+    <value>navBarGroup3</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup5.Name" xml:space="preserve">
+    <value>navBarGroup5</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup4.Name" xml:space="preserve">
+    <value>navBarGroup4</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup6.Name" xml:space="preserve">
+    <value>navBarGroup6</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup6.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup8.Name" xml:space="preserve">
+    <value>navBarGroup8</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup8.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup7.Name" xml:space="preserve">
+    <value>navBarGroup7</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup7.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup9.Name" xml:space="preserve">
+    <value>navBarGroup9</value>
+  </data>
+  <data name="&gt;&gt;navBarGroup9.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PortalView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

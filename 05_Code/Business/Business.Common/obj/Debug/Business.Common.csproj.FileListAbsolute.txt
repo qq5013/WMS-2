@@ -1,0 +1,7 @@
+E:\Taocode\myWMS\05_Code\Business\Business.Common\bin\Debug\Business.Common.dll
+E:\Taocode\myWMS\05_Code\Business\Business.Common\bin\Debug\Business.Common.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.Common\obj\Debug\Business.Common.dll
+E:\Taocode\myWMS\05_Code\Business\Business.Common\obj\Debug\Business.Common.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.Common\bin\Debug\Framework.Core.pdb
+E:\Taocode\myWMS\05_Code\Business\Business.Common\bin\Debug\Framework.Core.dll
+E:\Taocode\myWMS\05_Code\Business\Business.Common\obj\Debug\Business.Common.csprojResolveAssemblyReference.cache
